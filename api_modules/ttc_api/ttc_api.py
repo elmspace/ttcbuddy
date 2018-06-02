@@ -1,0 +1,19 @@
+
+import json;
+import urllib.request;
+
+
+class ttc_api:
+
+	def __init__(self):
+		self._base_ttc_api_url = "http://myttc.ca/";
+
+
+	def api_get_ttc_info(self, input_station, input_data_type = "json"):
+		station_url = self._base_ttc_api_url + input_station + "." +input_data_type;
+		response = json.load(urllib.request.urlopen(station_url));
+		return response;
+
+
+
+
