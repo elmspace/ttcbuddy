@@ -1,0 +1,190 @@
+,current_station_uri,current_station_name,lat,lng,to_station,departure_time,current_time,current_date
+0,finch_station,Finch,43.780544281,-79.4152450562,Downsview,22:57:13,22:56:58,2018-06-03
+1,finch_station,Finch,43.780544281,-79.4152450562,Downsview,23:02:05,22:56:58,2018-06-03
+2,finch_station,Finch,43.780544281,-79.4152450562,Downsview,23:06:57,22:56:58,2018-06-03
+3,north_york_centre_station,North York Centre  Southbound,43.7679328918,-79.4120101929,Finch,22:59:01,22:56:58,2018-06-03
+4,north_york_centre_station,North York Centre  Southbound,43.7679328918,-79.4120101929,Finch,23:03:53,22:56:58,2018-06-03
+5,north_york_centre_station,North York Centre  Southbound,43.7679328918,-79.4120101929,Finch,23:08:45,22:56:58,2018-06-03
+6,north_york_centre_station,North York Centre  Southbound,43.7679328918,-79.4120101929,Downsview,22:59:45,22:56:58,2018-06-03
+7,north_york_centre_station,North York Centre  Southbound,43.7679328918,-79.4120101929,Downsview,23:04:37,22:56:58,2018-06-03
+8,north_york_centre_station,North York Centre  Southbound,43.7679328918,-79.4120101929,Downsview,23:09:29,22:56:58,2018-06-03
+9,sheppard-yonge_station,Sheppard-Yonge  North-South,43.7614097595,-79.4106369019,Don Mills,23:01:39,22:56:58,2018-06-03
+10,sheppard-yonge_station,Sheppard-Yonge  North-South,43.7614097595,-79.4106369019,Don Mills,23:07:09,22:56:58,2018-06-03
+11,sheppard-yonge_station,Sheppard-Yonge  North-South,43.7614097595,-79.4106369019,Don Mills,23:12:39,22:56:58,2018-06-03
+12,sheppard-yonge_station,Sheppard-Yonge  North-South,43.7614097595,-79.4106369019,Finch,22:57:25,22:56:58,2018-06-03
+13,sheppard-yonge_station,Sheppard-Yonge  North-South,43.7614097595,-79.4106369019,Downsview,23:01:19,22:56:58,2018-06-03
+14,sheppard-yonge_station,Sheppard-Yonge  North-South,43.7614097595,-79.4106369019,Finch,23:02:17,22:56:58,2018-06-03
+15,sheppard-yonge_station,Sheppard-Yonge  North-South,43.7614097595,-79.4106369019,Downsview,23:06:11,22:56:58,2018-06-03
+16,sheppard-yonge_station,Sheppard-Yonge  North-South,43.7614097595,-79.4106369019,Finch,23:07:09,22:56:58,2018-06-03
+17,sheppard-yonge_station,Sheppard-Yonge  North-South,43.7614097595,-79.4106369019,Downsview,23:11:03,22:56:58,2018-06-03
+18,york_mills_station,York Mills,43.74401474,-79.4061965942,Finch,22:58:44,22:56:58,2018-06-03
+19,york_mills_station,York Mills,43.74401474,-79.4061965942,Downsview,23:00:01,22:56:58,2018-06-03
+20,york_mills_station,York Mills,43.74401474,-79.4061965942,Finch,23:03:36,22:56:58,2018-06-03
+21,york_mills_station,York Mills,43.74401474,-79.4061965942,Downsview,23:04:53,22:56:58,2018-06-03
+22,york_mills_station,York Mills,43.74401474,-79.4061965942,Finch,23:08:28,22:56:58,2018-06-03
+23,york_mills_station,York Mills,43.74401474,-79.4061965942,Downsview,23:09:45,22:56:58,2018-06-03
+24,lawrence_station,Lawrence,43.7262802124,-79.4032974243,Downsview,22:59:14,22:56:58,2018-06-03
+25,lawrence_station,Lawrence,43.7262802124,-79.4032974243,Finch,22:59:32,22:56:58,2018-06-03
+26,lawrence_station,Lawrence,43.7262802124,-79.4032974243,Downsview,23:04:06,22:56:58,2018-06-03
+27,lawrence_station,Lawrence,43.7262802124,-79.4032974243,Finch,23:04:24,22:56:58,2018-06-03
+28,lawrence_station,Lawrence,43.7262802124,-79.4032974243,Downsview,23:08:58,22:56:58,2018-06-03
+29,lawrence_station,Lawrence,43.7262802124,-79.4032974243,Finch,23:09:16,22:56:58,2018-06-03
+30,eglinton_station,Eglinton,43.7057304382,-79.398475647,Downsview,22:58:16,22:56:58,2018-06-03
+31,eglinton_station,Eglinton,43.7057304382,-79.398475647,Finch,23:00:30,22:56:58,2018-06-03
+32,eglinton_station,Eglinton,43.7057304382,-79.398475647,Downsview,23:03:08,22:56:58,2018-06-03
+33,eglinton_station,Eglinton,43.7057304382,-79.398475647,Finch,23:05:22,22:56:58,2018-06-03
+34,eglinton_station,Eglinton,43.7057304382,-79.398475647,Downsview,23:08:00,22:56:58,2018-06-03
+35,eglinton_station,Eglinton,43.7057304382,-79.398475647,Finch,23:10:14,22:56:58,2018-06-03
+36,davisville_station,Davisville  Southbound,43.6976699829,-79.3972091675,Finch,22:58:43,22:56:58,2018-06-03
+37,davisville_station,Davisville  Southbound,43.6976699829,-79.3972091675,Finch,23:03:35,22:56:58,2018-06-03
+38,davisville_station,Davisville  Southbound,43.6976699829,-79.3972091675,Finch,23:08:27,22:56:58,2018-06-03
+39,davisville_station,Davisville  Southbound,43.6976699829,-79.3972091675,Downsview,23:00:03,22:56:58,2018-06-03
+40,davisville_station,Davisville  Southbound,43.6976699829,-79.3972091675,Downsview,23:04:55,22:56:58,2018-06-03
+41,davisville_station,Davisville  Southbound,43.6976699829,-79.3972091675,Downsview,23:09:47,22:56:58,2018-06-03
+42,st_clair_station,St Clair  Southbound,43.6879043579,-79.3936233521,Finch,23:01:29,22:56:58,2018-06-03
+43,st_clair_station,St Clair  Southbound,43.6879043579,-79.3936233521,Finch,23:06:21,22:56:58,2018-06-03
+44,st_clair_station,St Clair  Southbound,43.6879043579,-79.3936233521,Finch,23:11:13,22:56:58,2018-06-03
+45,st_clair_station,St Clair  Southbound,43.6879043579,-79.3936233521,Downsview,22:57:18,22:56:58,2018-06-03
+46,st_clair_station,St Clair  Southbound,43.6879043579,-79.3936233521,Downsview,23:02:10,22:56:58,2018-06-03
+47,st_clair_station,St Clair  Southbound,43.6879043579,-79.3936233521,Downsview,23:07:02,22:56:58,2018-06-03
+48,summerhill_station,Summerhill  Southbound,43.6827850342,-79.391242981,Finch,23:00:15,22:56:58,2018-06-03
+49,summerhill_station,Summerhill  Southbound,43.6827850342,-79.391242981,Finch,23:05:07,22:56:58,2018-06-03
+50,summerhill_station,Summerhill  Southbound,43.6827850342,-79.391242981,Finch,23:09:59,22:56:58,2018-06-03
+51,summerhill_station,Summerhill  Southbound,43.6827850342,-79.391242981,Downsview,22:58:32,22:56:58,2018-06-03
+52,summerhill_station,Summerhill  Southbound,43.6827850342,-79.391242981,Downsview,23:03:24,22:56:58,2018-06-03
+53,summerhill_station,Summerhill  Southbound,43.6827850342,-79.391242981,Downsview,23:08:16,22:56:58,2018-06-03
+54,rosedale_station,Rosedale  Southbound,43.676651001,-79.3886108398,Finch,22:59:04,22:56:58,2018-06-03
+55,rosedale_station,Rosedale  Southbound,43.676651001,-79.3886108398,Finch,23:03:56,22:56:58,2018-06-03
+56,rosedale_station,Rosedale  Southbound,43.676651001,-79.3886108398,Finch,23:08:48,22:56:58,2018-06-03
+57,rosedale_station,Rosedale  Southbound,43.676651001,-79.3886108398,Downsview,22:59:41,22:56:58,2018-06-03
+58,rosedale_station,Rosedale  Southbound,43.676651001,-79.3886108398,Downsview,23:04:33,22:56:58,2018-06-03
+59,rosedale_station,Rosedale  Southbound,43.676651001,-79.3886108398,Downsview,23:09:25,22:56:58,2018-06-03
+60,bloor-yonge_station,Bloor-Yonge  Southbound,43.6708831787,-79.3865432739,Finch,22:57:41,22:56:58,2018-06-03
+61,bloor-yonge_station,Bloor-Yonge  Southbound,43.6708831787,-79.3865432739,Finch,23:02:33,22:56:58,2018-06-03
+62,bloor-yonge_station,Bloor-Yonge  Southbound,43.6708831787,-79.3865432739,Finch,23:07:25,22:56:58,2018-06-03
+63,bloor-yonge_station,Bloor-Yonge  Southbound,43.6708831787,-79.3865432739,Downsview,23:01:05,22:56:58,2018-06-03
+64,bloor-yonge_station,Bloor-Yonge  Southbound,43.6708831787,-79.3865432739,Downsview,23:05:57,22:56:58,2018-06-03
+65,bloor-yonge_station,Bloor-Yonge  Southbound,43.6708831787,-79.3865432739,Downsview,23:10:49,22:56:58,2018-06-03
+66,wellesley_station,Wellesley  Southbound,43.6655387878,-79.3837127686,Finch,23:01:25,22:56:58,2018-06-03
+67,wellesley_station,Wellesley  Southbound,43.6655387878,-79.3837127686,Finch,23:06:17,22:56:58,2018-06-03
+68,wellesley_station,Wellesley  Southbound,43.6655387878,-79.3837127686,Finch,23:11:09,22:56:58,2018-06-03
+69,wellesley_station,Wellesley  Southbound,43.6655387878,-79.3837127686,Downsview,22:57:20,22:56:58,2018-06-03
+70,wellesley_station,Wellesley  Southbound,43.6655387878,-79.3837127686,Downsview,23:02:12,22:56:58,2018-06-03
+71,wellesley_station,Wellesley  Southbound,43.6655387878,-79.3837127686,Downsview,23:07:04,22:56:58,2018-06-03
+72,college_station,College  Southbound,43.661075592,-79.3833389282,Finch,23:00:33,22:56:58,2018-06-03
+73,college_station,College  Southbound,43.661075592,-79.3833389282,Finch,23:05:25,22:56:58,2018-06-03
+74,college_station,College  Southbound,43.661075592,-79.3833389282,Finch,23:10:17,22:56:58,2018-06-03
+75,college_station,College  Southbound,43.661075592,-79.3833389282,Downsview,22:58:14,22:56:58,2018-06-03
+76,college_station,College  Southbound,43.661075592,-79.3833389282,Downsview,23:03:06,22:56:58,2018-06-03
+77,college_station,College  Southbound,43.661075592,-79.3833389282,Downsview,23:07:58,22:56:58,2018-06-03
+78,dundas_station,Dundas  Southbound,43.6555480957,-79.3812408447,Finch,22:59:30,22:56:58,2018-06-03
+79,dundas_station,Dundas  Southbound,43.6555480957,-79.3812408447,Finch,23:04:22,22:56:58,2018-06-03
+80,dundas_station,Dundas  Southbound,43.6555480957,-79.3812408447,Finch,23:09:14,22:56:58,2018-06-03
+81,dundas_station,Dundas  Southbound,43.6555480957,-79.3812408447,Downsview,22:59:16,22:56:58,2018-06-03
+82,dundas_station,Dundas  Southbound,43.6555480957,-79.3812408447,Downsview,23:04:08,22:56:58,2018-06-03
+83,dundas_station,Dundas  Southbound,43.6555480957,-79.3812408447,Downsview,23:09:00,22:56:58,2018-06-03
+84,queen_station,Queen  Southbound,43.6522865295,-79.3795776367,Finch,22:58:40,22:56:58,2018-06-03
+85,queen_station,Queen  Southbound,43.6522865295,-79.3795776367,Finch,23:03:32,22:56:58,2018-06-03
+86,queen_station,Queen  Southbound,43.6522865295,-79.3795776367,Finch,23:08:24,22:56:58,2018-06-03
+87,queen_station,Queen  Southbound,43.6522865295,-79.3795776367,Downsview,23:00:06,22:56:58,2018-06-03
+88,queen_station,Queen  Southbound,43.6522865295,-79.3795776367,Downsview,23:04:58,22:56:58,2018-06-03
+89,queen_station,Queen  Southbound,43.6522865295,-79.3795776367,Downsview,23:09:50,22:56:58,2018-06-03
+90,king_station,King  Southbound,43.64868927,-79.3780899048,Finch,22:57:59,22:56:58,2018-06-03
+91,king_station,King  Southbound,43.64868927,-79.3780899048,Finch,23:02:51,22:56:58,2018-06-03
+92,king_station,King  Southbound,43.64868927,-79.3780899048,Finch,23:07:43,22:56:58,2018-06-03
+93,king_station,King  Southbound,43.64868927,-79.3780899048,Downsview,23:00:46,22:56:58,2018-06-03
+94,king_station,King  Southbound,43.64868927,-79.3780899048,Downsview,23:05:38,22:56:58,2018-06-03
+95,king_station,King  Southbound,43.64868927,-79.3780899048,Downsview,23:10:30,22:56:58,2018-06-03
+96,union_station,Union,43.6450958252,-79.3810272217,Finch,23:01:47,22:56:58,2018-06-03
+97,union_station,Union,43.6450958252,-79.3810272217,Downsview,23:01:49,22:56:58,2018-06-03
+98,union_station,Union,43.6450958252,-79.3810272217,Finch,23:06:39,22:56:58,2018-06-03
+99,union_station,Union,43.6450958252,-79.3810272217,Downsview,23:06:41,22:56:58,2018-06-03
+100,union_station,Union,43.6450958252,-79.3810272217,Finch,23:11:31,22:56:58,2018-06-03
+101,union_station,Union,43.6450958252,-79.3810272217,Downsview,23:11:33,22:56:58,2018-06-03
+102,st_andrew_station,St Andrew,43.6476745605,-79.384803772,Downsview,22:57:50,22:56:58,2018-06-03
+103,st_andrew_station,St Andrew,43.6476745605,-79.384803772,Finch,23:00:54,22:56:58,2018-06-03
+104,st_andrew_station,St Andrew,43.6476745605,-79.384803772,Downsview,23:02:42,22:56:58,2018-06-03
+105,st_andrew_station,St Andrew,43.6476745605,-79.384803772,Finch,23:05:46,22:56:58,2018-06-03
+106,st_andrew_station,St Andrew,43.6476745605,-79.384803772,Downsview,23:07:34,22:56:58,2018-06-03
+107,st_andrew_station,St Andrew,43.6476745605,-79.384803772,Finch,23:10:38,22:56:58,2018-06-03
+108,osgoode_station,Osgoode,43.6510162354,-79.3866348267,Downsview,22:58:35,22:56:58,2018-06-03
+109,osgoode_station,Osgoode,43.6510162354,-79.3866348267,Finch,23:00:09,22:56:58,2018-06-03
+110,osgoode_station,Osgoode,43.6510162354,-79.3866348267,Downsview,23:03:27,22:56:58,2018-06-03
+111,osgoode_station,Osgoode,43.6510162354,-79.3866348267,Finch,23:05:01,22:56:58,2018-06-03
+112,osgoode_station,Osgoode,43.6510162354,-79.3866348267,Downsview,23:08:19,22:56:58,2018-06-03
+113,osgoode_station,Osgoode,43.6510162354,-79.3866348267,Finch,23:09:53,22:56:58,2018-06-03
+114,st_patrick_station,St Patrick,43.6547660828,-79.3879776001,Finch,22:59:21,22:56:58,2018-06-03
+115,st_patrick_station,St Patrick,43.6547660828,-79.3879776001,Downsview,22:59:23,22:56:58,2018-06-03
+116,st_patrick_station,St Patrick,43.6547660828,-79.3879776001,Finch,23:04:13,22:56:58,2018-06-03
+117,st_patrick_station,St Patrick,43.6547660828,-79.3879776001,Downsview,23:04:15,22:56:58,2018-06-03
+118,st_patrick_station,St Patrick,43.6547660828,-79.3879776001,Finch,23:09:05,22:56:58,2018-06-03
+119,st_patrick_station,St Patrick,43.6547660828,-79.3879776001,Downsview,23:09:07,22:56:58,2018-06-03
+120,queens_park_station,Queens Park,43.6599617004,-79.3905029297,Finch,22:58:15,22:56:58,2018-06-03
+121,queens_park_station,Queens Park,43.6599617004,-79.3905029297,Downsview,23:00:26,22:56:58,2018-06-03
+122,queens_park_station,Queens Park,43.6599617004,-79.3905029297,Finch,23:03:07,22:56:58,2018-06-03
+123,queens_park_station,Queens Park,43.6599617004,-79.3905029297,Downsview,23:05:18,22:56:58,2018-06-03
+124,queens_park_station,Queens Park,43.6599617004,-79.3905029297,Finch,23:07:59,22:56:58,2018-06-03
+125,queens_park_station,Queens Park,43.6599617004,-79.3905029297,Downsview,23:10:10,22:56:58,2018-06-03
+126,museum_station,Museum,43.6671791077,-79.3935623169,Downsview,22:57:12,22:56:58,2018-06-03
+127,museum_station,Museum,43.6671791077,-79.3935623169,Finch,23:01:33,22:56:58,2018-06-03
+128,museum_station,Museum,43.6671791077,-79.3935623169,Downsview,23:02:04,22:56:58,2018-06-03
+129,museum_station,Museum,43.6671791077,-79.3935623169,Finch,23:06:25,22:56:58,2018-06-03
+130,museum_station,Museum,43.6671791077,-79.3935623169,Downsview,23:06:56,22:56:58,2018-06-03
+131,museum_station,Museum,43.6671791077,-79.3935623169,Finch,23:11:17,22:56:58,2018-06-03
+132,st_george_station,St George  North-South,43.6685066223,-79.3987426758,Downsview,22:58:07,22:56:58,2018-06-03
+133,st_george_station,St George  North-South,43.6685066223,-79.3987426758,Finch,23:00:37,22:56:58,2018-06-03
+134,st_george_station,St George  North-South,43.6685066223,-79.3987426758,Downsview,23:02:59,22:56:58,2018-06-03
+135,st_george_station,St George  North-South,43.6685066223,-79.3987426758,Finch,23:05:29,22:56:58,2018-06-03
+136,st_george_station,St George  North-South,43.6685066223,-79.3987426758,Downsview,23:07:51,22:56:58,2018-06-03
+137,st_george_station,St George  North-South,43.6685066223,-79.3987426758,Finch,23:10:21,22:56:58,2018-06-03
+138,spadina_station,Spadina  Northbound,43.6697120667,-79.4043426514,Downsview,22:59:32,22:56:58,2018-06-03
+139,spadina_station,Spadina  Northbound,43.6697120667,-79.4043426514,Downsview,23:04:24,22:56:58,2018-06-03
+140,spadina_station,Spadina  Northbound,43.6697120667,-79.4043426514,Downsview,23:09:16,22:56:58,2018-06-03
+141,spadina_station,Spadina  Northbound,43.6697120667,-79.4043426514,Finch,22:59:13,22:56:58,2018-06-03
+142,spadina_station,Spadina  Northbound,43.6697120667,-79.4043426514,Finch,23:04:05,22:56:58,2018-06-03
+143,spadina_station,Spadina  Northbound,43.6697120667,-79.4043426514,Finch,23:08:57,22:56:58,2018-06-03
+144,dupont_station,Dupont  Northbound,43.6747550964,-79.4065093994,Downsview,23:00:32,22:56:58,2018-06-03
+145,dupont_station,Dupont  Northbound,43.6747550964,-79.4065093994,Downsview,23:05:24,22:56:58,2018-06-03
+146,dupont_station,Dupont  Northbound,43.6747550964,-79.4065093994,Downsview,23:10:16,22:56:58,2018-06-03
+147,dupont_station,Dupont  Northbound,43.6747550964,-79.4065093994,Finch,22:58:12,22:56:58,2018-06-03
+148,dupont_station,Dupont  Northbound,43.6747550964,-79.4065093994,Finch,23:03:04,22:56:58,2018-06-03
+149,dupont_station,Dupont  Northbound,43.6747550964,-79.4065093994,Finch,23:07:56,22:56:58,2018-06-03
+150,st_clair_west_station,St Clair West  Northbound,43.6845397949,-79.4146728516,Downsview,22:58:00,22:56:58,2018-06-03
+151,st_clair_west_station,St Clair West  Northbound,43.6845397949,-79.4146728516,Downsview,23:02:52,22:56:58,2018-06-03
+152,st_clair_west_station,St Clair West  Northbound,43.6845397949,-79.4146728516,Downsview,23:07:44,22:56:58,2018-06-03
+153,st_clair_west_station,St Clair West  Northbound,43.6845397949,-79.4146728516,Finch,23:00:43,22:56:58,2018-06-03
+154,st_clair_west_station,St Clair West  Northbound,43.6845397949,-79.4146728516,Finch,23:05:35,22:56:58,2018-06-03
+155,st_clair_west_station,St Clair West  Northbound,43.6845397949,-79.4146728516,Finch,23:10:27,22:56:58,2018-06-03
+156,eglinton_west_station,Eglinton West  Northbound,43.6998062134,-79.4360122681,Downsview,22:58:02,22:56:58,2018-06-03
+157,eglinton_west_station,Eglinton West  Northbound,43.6998062134,-79.4360122681,Downsview,23:02:54,22:56:58,2018-06-03
+158,eglinton_west_station,Eglinton West  Northbound,43.6998062134,-79.4360122681,Downsview,23:07:46,22:56:58,2018-06-03
+159,eglinton_west_station,Eglinton West  Northbound,43.6998062134,-79.4360122681,Finch,23:00:45,22:56:58,2018-06-03
+160,eglinton_west_station,Eglinton West  Northbound,43.6998062134,-79.4360122681,Finch,23:05:37,22:56:58,2018-06-03
+161,eglinton_west_station,Eglinton West  Northbound,43.6998062134,-79.4360122681,Finch,23:10:29,22:56:58,2018-06-03
+162,glencairn_station,Glencairn,43.709186554,-79.4410247803,Finch,22:58:22,22:56:58,2018-06-03
+163,glencairn_station,Glencairn,43.709186554,-79.4410247803,Downsview,23:00:26,22:56:58,2018-06-03
+164,glencairn_station,Glencairn,43.709186554,-79.4410247803,Finch,23:03:14,22:56:58,2018-06-03
+165,glencairn_station,Glencairn,43.709186554,-79.4410247803,Downsview,23:05:18,22:56:58,2018-06-03
+166,glencairn_station,Glencairn,43.709186554,-79.4410247803,Finch,23:08:06,22:56:58,2018-06-03
+167,glencairn_station,Glencairn,43.709186554,-79.4410247803,Downsview,23:10:10,22:56:58,2018-06-03
+168,lawrence_west_station,Lawrence West,43.7153625488,-79.4439620972,Finch,23:01:47,22:56:58,2018-06-03
+169,lawrence_west_station,Lawrence West,43.7153625488,-79.4439620972,Downsview,23:01:50,22:56:58,2018-06-03
+170,lawrence_west_station,Lawrence West,43.7153625488,-79.4439620972,Finch,23:06:39,22:56:58,2018-06-03
+171,lawrence_west_station,Lawrence West,43.7153625488,-79.4439620972,Downsview,23:06:42,22:56:58,2018-06-03
+172,lawrence_west_station,Lawrence West,43.7153625488,-79.4439620972,Finch,23:11:31,22:56:58,2018-06-03
+173,lawrence_west_station,Lawrence West,43.7153625488,-79.4439620972,Downsview,23:11:34,22:56:58,2018-06-03
+174,yorkdale_station,Yorkdale,43.7247543335,-79.4475708008,Downsview,22:58:46,22:56:58,2018-06-03
+175,yorkdale_station,Yorkdale,43.7247543335,-79.4475708008,Finch,22:59:59,22:56:58,2018-06-03
+176,yorkdale_station,Yorkdale,43.7247543335,-79.4475708008,Downsview,23:03:38,22:56:58,2018-06-03
+177,yorkdale_station,Yorkdale,43.7247543335,-79.4475708008,Finch,23:04:51,22:56:58,2018-06-03
+178,yorkdale_station,Yorkdale,43.7247543335,-79.4475708008,Downsview,23:08:30,22:56:58,2018-06-03
+179,yorkdale_station,Yorkdale,43.7247543335,-79.4475708008,Finch,23:09:43,22:56:58,2018-06-03
+180,wilson_station,Wilson,43.7346572876,-79.4501953125,Finch,22:58:01,22:56:58,2018-06-03
+181,wilson_station,Wilson,43.7346572876,-79.4501953125,Downsview,23:00:48,22:56:58,2018-06-03
+182,wilson_station,Wilson,43.7346572876,-79.4501953125,Finch,23:02:53,22:56:58,2018-06-03
+183,wilson_station,Wilson,43.7346572876,-79.4501953125,Downsview,23:05:40,22:56:58,2018-06-03
+184,wilson_station,Wilson,43.7346572876,-79.4501953125,Finch,23:07:45,22:56:58,2018-06-03
+185,wilson_station,Wilson,43.7346572876,-79.4501953125,Downsview,23:10:32,22:56:58,2018-06-03
+186,downsview_station,Downsview,43.7491645813,-79.4621582031,Finch,22:59:05,22:56:58,2018-06-03
+187,downsview_station,Downsview,43.7491645813,-79.4621582031,Finch,23:03:57,22:56:58,2018-06-03
+188,downsview_station,Downsview,43.7491645813,-79.4621582031,Finch,23:08:49,22:56:58,2018-06-03
