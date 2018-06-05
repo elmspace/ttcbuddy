@@ -1,0 +1,472 @@
+,current_station_uri,current_station_name,lat,lng,to_station,departure_time,collection_time,collection_date
+0,finch_station,Finch,43.780544281,-79.4152450562,Downsview,06:03:09,01:46:50,20180605
+1,finch_station,Finch,43.780544281,-79.4152450562,Downsview,06:07:51,01:46:50,20180605
+2,finch_station,Finch,43.780544281,-79.4152450562,Downsview,06:12:33,01:46:50,20180605
+3,north_york_centre_station,North York Centre  Southbound,43.7679328918,-79.4120101929,Finch,01:47:18,01:46:50,20180605
+4,north_york_centre_station,North York Centre  Southbound,43.7679328918,-79.4120101929,Finch,01:52:10,01:46:50,20180605
+5,north_york_centre_station,North York Centre  Southbound,43.7679328918,-79.4120101929,Finch,01:57:02,01:46:50,20180605
+6,north_york_centre_station,North York Centre  Southbound,43.7679328918,-79.4120101929,Downsview,06:05:50,01:46:50,20180605
+7,north_york_centre_station,North York Centre  Southbound,43.7679328918,-79.4120101929,Downsview,06:10:32,01:46:50,20180605
+8,north_york_centre_station,North York Centre  Southbound,43.7679328918,-79.4120101929,Downsview,06:15:14,01:46:50,20180605
+9,sheppard-yonge_station,Sheppard-Yonge  North-South,43.7614097595,-79.4106369019,Don Mills,01:52:09,01:46:50,20180605
+10,sheppard-yonge_station,Sheppard-Yonge  North-South,43.7614097595,-79.4106369019,Don Mills,01:57:39,01:46:50,20180605
+11,sheppard-yonge_station,Sheppard-Yonge  North-South,43.7614097595,-79.4106369019,Don Mills,02:03:09,01:46:50,20180605
+12,sheppard-yonge_station,Sheppard-Yonge  North-South,43.7614097595,-79.4106369019,Finch,01:50:34,01:46:50,20180605
+13,sheppard-yonge_station,Sheppard-Yonge  North-South,43.7614097595,-79.4106369019,Finch,01:55:26,01:46:50,20180605
+14,sheppard-yonge_station,Sheppard-Yonge  North-South,43.7614097595,-79.4106369019,Finch,02:00:18,01:46:50,20180605
+15,sheppard-yonge_station,Sheppard-Yonge  North-South,43.7614097595,-79.4106369019,Downsview,06:07:29,01:46:50,20180605
+16,sheppard-yonge_station,Sheppard-Yonge  North-South,43.7614097595,-79.4106369019,Downsview,06:12:11,01:46:50,20180605
+17,sheppard-yonge_station,Sheppard-Yonge  North-South,43.7614097595,-79.4106369019,Downsview,06:16:53,01:46:50,20180605
+18,york_mills_station,York Mills,43.74401474,-79.4061965942,Finch,01:47:01,01:46:50,20180605
+19,york_mills_station,York Mills,43.74401474,-79.4061965942,Finch,01:51:53,01:46:50,20180605
+20,york_mills_station,York Mills,43.74401474,-79.4061965942,Finch,01:56:45,01:46:50,20180605
+21,york_mills_station,York Mills,43.74401474,-79.4061965942,Downsview,06:11:13,01:46:50,20180605
+22,york_mills_station,York Mills,43.74401474,-79.4061965942,Downsview,06:15:55,01:46:50,20180605
+23,york_mills_station,York Mills,43.74401474,-79.4061965942,Downsview,06:20:37,01:46:50,20180605
+24,lawrence_station,Lawrence,43.7262802124,-79.4032974243,Finch,01:47:49,01:46:50,20180605
+25,lawrence_station,Lawrence,43.7262802124,-79.4032974243,Finch,01:52:41,01:46:50,20180605
+26,lawrence_station,Lawrence,43.7262802124,-79.4032974243,Finch,01:57:33,01:46:50,20180605
+27,lawrence_station,Lawrence,43.7262802124,-79.4032974243,Downsview,06:15:32,01:46:50,20180605
+28,lawrence_station,Lawrence,43.7262802124,-79.4032974243,Downsview,06:20:14,01:46:50,20180605
+29,lawrence_station,Lawrence,43.7262802124,-79.4032974243,Downsview,06:24:56,01:46:50,20180605
+30,eglinton_station,Eglinton,43.7057304382,-79.398475647,Finch,01:48:47,01:46:50,20180605
+31,eglinton_station,Eglinton,43.7057304382,-79.398475647,Finch,01:53:39,01:46:50,20180605
+32,eglinton_station,Eglinton,43.7057304382,-79.398475647,Finch,01:58:31,01:46:50,20180605
+33,eglinton_station,Eglinton,43.7057304382,-79.398475647,Downsview,06:19:38,01:46:50,20180605
+34,eglinton_station,Eglinton,43.7057304382,-79.398475647,Downsview,06:24:20,01:46:50,20180605
+35,eglinton_station,Eglinton,43.7057304382,-79.398475647,Downsview,06:29:02,01:46:50,20180605
+36,davisville_station,Davisville  Southbound,43.6976699829,-79.3972091675,Finch,01:47:00,01:46:50,20180605
+37,davisville_station,Davisville  Southbound,43.6976699829,-79.3972091675,Finch,01:51:52,01:46:50,20180605
+38,davisville_station,Davisville  Southbound,43.6976699829,-79.3972091675,Finch,01:56:44,01:46:50,20180605
+39,davisville_station,Davisville  Southbound,43.6976699829,-79.3972091675,Downsview,06:21:31,01:46:50,20180605
+40,davisville_station,Davisville  Southbound,43.6976699829,-79.3972091675,Downsview,06:26:13,01:46:50,20180605
+41,davisville_station,Davisville  Southbound,43.6976699829,-79.3972091675,Downsview,06:30:55,01:46:50,20180605
+42,st_clair_station,St Clair  Southbound,43.6879043579,-79.3936233521,Finch,01:49:46,01:46:50,20180605
+43,st_clair_station,St Clair  Southbound,43.6879043579,-79.3936233521,Finch,01:54:38,01:46:50,20180605
+44,st_clair_station,St Clair  Southbound,43.6879043579,-79.3936233521,Finch,01:59:30,01:46:50,20180605
+45,st_clair_station,St Clair  Southbound,43.6879043579,-79.3936233521,Downsview,06:23:45,01:46:50,20180605
+46,st_clair_station,St Clair  Southbound,43.6879043579,-79.3936233521,Downsview,06:28:27,01:46:50,20180605
+47,st_clair_station,St Clair  Southbound,43.6879043579,-79.3936233521,Downsview,06:33:09,01:46:50,20180605
+48,summerhill_station,Summerhill  Southbound,43.6827850342,-79.391242981,Finch,01:48:32,01:46:50,20180605
+49,summerhill_station,Summerhill  Southbound,43.6827850342,-79.391242981,Finch,01:53:24,01:46:50,20180605
+50,summerhill_station,Summerhill  Southbound,43.6827850342,-79.391242981,Finch,01:58:16,01:46:50,20180605
+51,summerhill_station,Summerhill  Southbound,43.6827850342,-79.391242981,Downsview,06:25:03,01:46:50,20180605
+52,summerhill_station,Summerhill  Southbound,43.6827850342,-79.391242981,Downsview,06:29:45,01:46:50,20180605
+53,summerhill_station,Summerhill  Southbound,43.6827850342,-79.391242981,Downsview,06:34:27,01:46:50,20180605
+54,rosedale_station,Rosedale  Southbound,43.676651001,-79.3886108398,Finch,01:47:21,01:46:50,20180605
+55,rosedale_station,Rosedale  Southbound,43.676651001,-79.3886108398,Finch,01:52:13,01:46:50,20180605
+56,rosedale_station,Rosedale  Southbound,43.676651001,-79.3886108398,Finch,01:57:05,01:46:50,20180605
+57,rosedale_station,Rosedale  Southbound,43.676651001,-79.3886108398,Downsview,06:26:16,01:46:50,20180605
+58,rosedale_station,Rosedale  Southbound,43.676651001,-79.3886108398,Downsview,06:30:58,01:46:50,20180605
+59,rosedale_station,Rosedale  Southbound,43.676651001,-79.3886108398,Downsview,06:35:40,01:46:50,20180605
+60,bloor-yonge_station,Bloor-Yonge  Southbound,43.6708831787,-79.3865432739,Kipling,01:47:30,01:46:50,20180605
+61,bloor-yonge_station,Bloor-Yonge  Southbound,43.6708831787,-79.3865432739,Kennedy,01:47:51,01:46:50,20180605
+62,bloor-yonge_station,Bloor-Yonge  Southbound,43.6708831787,-79.3865432739,Kipling,01:52:22,01:46:50,20180605
+63,bloor-yonge_station,Bloor-Yonge  Southbound,43.6708831787,-79.3865432739,Kennedy,01:52:43,01:46:50,20180605
+64,bloor-yonge_station,Bloor-Yonge  Southbound,43.6708831787,-79.3865432739,Kennedy,06:06:24,01:46:50,20180605
+65,bloor-yonge_station,Bloor-Yonge  Southbound,43.6708831787,-79.3865432739,Kipling,06:08:24,01:46:50,20180605
+66,bloor-yonge_station,Bloor-Yonge  Southbound,43.6708831787,-79.3865432739,Finch,01:50:50,01:46:50,20180605
+67,bloor-yonge_station,Bloor-Yonge  Southbound,43.6708831787,-79.3865432739,Finch,01:55:42,01:46:50,20180605
+68,bloor-yonge_station,Bloor-Yonge  Southbound,43.6708831787,-79.3865432739,Finch,06:14:34,01:46:50,20180605
+69,bloor-yonge_station,Bloor-Yonge  Southbound,43.6708831787,-79.3865432739,Downsview,06:27:44,01:46:50,20180605
+70,bloor-yonge_station,Bloor-Yonge  Southbound,43.6708831787,-79.3865432739,Downsview,06:32:26,01:46:50,20180605
+71,bloor-yonge_station,Bloor-Yonge  Southbound,43.6708831787,-79.3865432739,Downsview,06:37:08,01:46:50,20180605
+72,wellesley_station,Wellesley  Southbound,43.6655387878,-79.3837127686,Finch,01:49:42,01:46:50,20180605
+73,wellesley_station,Wellesley  Southbound,43.6655387878,-79.3837127686,Finch,01:54:34,01:46:50,20180605
+74,wellesley_station,Wellesley  Southbound,43.6655387878,-79.3837127686,Finch,06:13:22,01:46:50,20180605
+75,wellesley_station,Wellesley  Southbound,43.6655387878,-79.3837127686,Downsview,06:28:55,01:46:50,20180605
+76,wellesley_station,Wellesley  Southbound,43.6655387878,-79.3837127686,Downsview,06:33:37,01:46:50,20180605
+77,wellesley_station,Wellesley  Southbound,43.6655387878,-79.3837127686,Downsview,06:38:19,01:46:50,20180605
+78,college_station,College  Southbound,43.661075592,-79.3833389282,Finch,01:48:50,01:46:50,20180605
+79,college_station,College  Southbound,43.661075592,-79.3833389282,Finch,01:53:42,01:46:50,20180605
+80,college_station,College  Southbound,43.661075592,-79.3833389282,Finch,06:12:27,01:46:50,20180605
+81,college_station,College  Southbound,43.661075592,-79.3833389282,Downsview,06:29:51,01:46:50,20180605
+82,college_station,College  Southbound,43.661075592,-79.3833389282,Downsview,06:34:33,01:46:50,20180605
+83,college_station,College  Southbound,43.661075592,-79.3833389282,Downsview,06:39:15,01:46:50,20180605
+84,dundas_station,Dundas  Southbound,43.6555480957,-79.3812408447,Finch,01:47:47,01:46:50,20180605
+85,dundas_station,Dundas  Southbound,43.6555480957,-79.3812408447,Finch,01:52:39,01:46:50,20180605
+86,dundas_station,Dundas  Southbound,43.6555480957,-79.3812408447,Finch,06:11:21,01:46:50,20180605
+87,dundas_station,Dundas  Southbound,43.6555480957,-79.3812408447,Downsview,06:30:57,01:46:50,20180605
+88,dundas_station,Dundas  Southbound,43.6555480957,-79.3812408447,Downsview,06:35:39,01:46:50,20180605
+89,dundas_station,Dundas  Southbound,43.6555480957,-79.3812408447,Downsview,06:40:21,01:46:50,20180605
+90,queen_station,Queen  Southbound,43.6522865295,-79.3795776367,Finch,01:46:57,01:46:50,20180605
+91,queen_station,Queen  Southbound,43.6522865295,-79.3795776367,Finch,01:51:49,01:46:50,20180605
+92,queen_station,Queen  Southbound,43.6522865295,-79.3795776367,Finch,06:10:29,01:46:50,20180605
+93,queen_station,Queen  Southbound,43.6522865295,-79.3795776367,Downsview,06:31:49,01:46:50,20180605
+94,queen_station,Queen  Southbound,43.6522865295,-79.3795776367,Downsview,06:36:31,01:46:50,20180605
+95,queen_station,Queen  Southbound,43.6522865295,-79.3795776367,Downsview,06:41:13,01:46:50,20180605
+96,king_station,King  Southbound,43.64868927,-79.3780899048,Finch,01:51:08,01:46:50,20180605
+97,king_station,King  Southbound,43.64868927,-79.3780899048,Finch,06:09:45,01:46:50,20180605
+98,king_station,King  Southbound,43.64868927,-79.3780899048,Finch,06:14:27,01:46:50,20180605
+99,king_station,King  Southbound,43.64868927,-79.3780899048,Downsview,06:32:32,01:46:50,20180605
+100,king_station,King  Southbound,43.64868927,-79.3780899048,Downsview,06:37:14,01:46:50,20180605
+101,king_station,King  Southbound,43.64868927,-79.3780899048,Downsview,06:41:56,01:46:50,20180605
+102,union_station,Union,43.6450958252,-79.3810272217,Finch,01:50:04,01:46:50,20180605
+103,union_station,Union,43.6450958252,-79.3810272217,Finch,06:08:38,01:46:50,20180605
+104,union_station,Union,43.6450958252,-79.3810272217,Finch,06:13:20,01:46:50,20180605
+105,union_station,Union,43.6450958252,-79.3810272217,Downsview,06:33:38,01:46:50,20180605
+106,union_station,Union,43.6450958252,-79.3810272217,Downsview,06:38:20,01:46:50,20180605
+107,union_station,Union,43.6450958252,-79.3810272217,Downsview,06:43:02,01:46:50,20180605
+108,st_andrew_station,St Andrew,43.6476745605,-79.384803772,Downsview,01:47:29,01:46:50,20180605
+109,st_andrew_station,St Andrew,43.6476745605,-79.384803772,Finch,01:49:11,01:46:50,20180605
+110,st_andrew_station,St Andrew,43.6476745605,-79.384803772,Finch,06:07:42,01:46:50,20180605
+111,st_andrew_station,St Andrew,43.6476745605,-79.384803772,Finch,06:12:24,01:46:50,20180605
+112,st_andrew_station,St Andrew,43.6476745605,-79.384803772,Downsview,06:34:34,01:46:50,20180605
+113,st_andrew_station,St Andrew,43.6476745605,-79.384803772,Downsview,06:39:16,01:46:50,20180605
+114,osgoode_station,Osgoode,43.6510162354,-79.3866348267,Downsview,01:48:14,01:46:50,20180605
+115,osgoode_station,Osgoode,43.6510162354,-79.3866348267,Finch,01:48:26,01:46:50,20180605
+116,osgoode_station,Osgoode,43.6510162354,-79.3866348267,Finch,06:06:55,01:46:50,20180605
+117,osgoode_station,Osgoode,43.6510162354,-79.3866348267,Finch,06:11:37,01:46:50,20180605
+118,osgoode_station,Osgoode,43.6510162354,-79.3866348267,Downsview,06:35:21,01:46:50,20180605
+119,osgoode_station,Osgoode,43.6510162354,-79.3866348267,Downsview,06:40:03,01:46:50,20180605
+120,st_patrick_station,St Patrick,43.6547660828,-79.3879776001,Finch,01:47:38,01:46:50,20180605
+121,st_patrick_station,St Patrick,43.6547660828,-79.3879776001,Downsview,01:49:02,01:46:50,20180605
+122,st_patrick_station,St Patrick,43.6547660828,-79.3879776001,Finch,06:06:04,01:46:50,20180605
+123,st_patrick_station,St Patrick,43.6547660828,-79.3879776001,Finch,06:10:46,01:46:50,20180605
+124,st_patrick_station,St Patrick,43.6547660828,-79.3879776001,Downsview,06:36:12,01:46:50,20180605
+125,st_patrick_station,St Patrick,43.6547660828,-79.3879776001,Downsview,06:40:54,01:46:50,20180605
+126,queens_park_station,Queens Park,43.6599617004,-79.3905029297,Downsview,01:50:05,01:46:50,20180605
+127,queens_park_station,Queens Park,43.6599617004,-79.3905029297,Finch,06:04:55,01:46:50,20180605
+128,queens_park_station,Queens Park,43.6599617004,-79.3905029297,Finch,06:09:37,01:46:50,20180605
+129,queens_park_station,Queens Park,43.6599617004,-79.3905029297,Finch,06:14:19,01:46:50,20180605
+130,queens_park_station,Queens Park,43.6599617004,-79.3905029297,Downsview,06:37:18,01:46:50,20180605
+131,queens_park_station,Queens Park,43.6599617004,-79.3905029297,Downsview,06:42:00,01:46:50,20180605
+132,museum_station,Museum,43.6671791077,-79.3935623169,Downsview,01:51:43,01:46:50,20180605
+133,museum_station,Museum,43.6671791077,-79.3935623169,Finch,06:03:16,01:46:50,20180605
+134,museum_station,Museum,43.6671791077,-79.3935623169,Finch,06:07:58,01:46:50,20180605
+135,museum_station,Museum,43.6671791077,-79.3935623169,Finch,06:12:40,01:46:50,20180605
+136,museum_station,Museum,43.6671791077,-79.3935623169,Downsview,06:39:02,01:46:50,20180605
+137,museum_station,Museum,43.6671791077,-79.3935623169,Downsview,06:43:44,01:46:50,20180605
+138,st_george_station,St George  North-South,43.6685066223,-79.3987426758,Kipling,01:49:28,01:46:50,20180605
+139,st_george_station,St George  North-South,43.6685066223,-79.3987426758,Kennedy,01:50:43,01:46:50,20180605
+140,st_george_station,St George  North-South,43.6685066223,-79.3987426758,Kipling,01:54:20,01:46:50,20180605
+141,st_george_station,St George  North-South,43.6685066223,-79.3987426758,Kennedy,06:04:20,01:46:50,20180605
+142,st_george_station,St George  North-South,43.6685066223,-79.3987426758,Kennedy,06:06:41,01:46:50,20180605
+143,st_george_station,St George  North-South,43.6685066223,-79.3987426758,Kipling,06:10:27,01:46:50,20180605
+144,st_george_station,St George  North-South,43.6685066223,-79.3987426758,Downsview,01:47:46,01:46:50,20180605
+145,st_george_station,St George  North-South,43.6685066223,-79.3987426758,Downsview,01:52:38,01:46:50,20180605
+146,st_george_station,St George  North-South,43.6685066223,-79.3987426758,Finch,06:02:16,01:46:50,20180605
+147,st_george_station,St George  North-South,43.6685066223,-79.3987426758,Finch,06:06:58,01:46:50,20180605
+148,st_george_station,St George  North-South,43.6685066223,-79.3987426758,Finch,06:11:40,01:46:50,20180605
+149,st_george_station,St George  North-South,43.6685066223,-79.3987426758,Downsview,06:40:00,01:46:50,20180605
+150,spadina_station,Spadina  Northbound,43.6697120667,-79.4043426514,Kennedy,01:49:55,01:46:50,20180605
+151,spadina_station,Spadina  Northbound,43.6697120667,-79.4043426514,Kennedy,06:03:29,01:46:50,20180605
+152,spadina_station,Spadina  Northbound,43.6697120667,-79.4043426514,Kennedy,06:05:50,01:46:50,20180605
+153,spadina_station,Spadina  Northbound,43.6697120667,-79.4043426514,Downsview,01:49:11,01:46:50,20180605
+154,spadina_station,Spadina  Northbound,43.6697120667,-79.4043426514,Downsview,01:54:03,01:46:50,20180605
+155,spadina_station,Spadina  Northbound,43.6697120667,-79.4043426514,Downsview,06:41:29,01:46:50,20180605
+156,spadina_station,Spadina  Northbound,43.6697120667,-79.4043426514,Finch,06:00:48,01:46:50,20180605
+157,spadina_station,Spadina  Northbound,43.6697120667,-79.4043426514,Finch,06:05:30,01:46:50,20180605
+158,spadina_station,Spadina  Northbound,43.6697120667,-79.4043426514,Finch,06:10:12,01:46:50,20180605
+159,spadina_station,Spadina  Northbound,43.6697120667,-79.4043426514,Kipling,01:50:18,01:46:50,20180605
+160,spadina_station,Spadina  Northbound,43.6697120667,-79.4043426514,Kipling,01:55:10,01:46:50,20180605
+161,spadina_station,Spadina  Northbound,43.6697120667,-79.4043426514,Kipling,06:11:19,01:46:50,20180605
+162,dupont_station,Dupont  Northbound,43.6747550964,-79.4065093994,Downsview,01:50:11,01:46:50,20180605
+163,dupont_station,Dupont  Northbound,43.6747550964,-79.4065093994,Downsview,01:55:03,01:46:50,20180605
+164,dupont_station,Dupont  Northbound,43.6747550964,-79.4065093994,Downsview,06:42:32,01:46:50,20180605
+165,dupont_station,Dupont  Northbound,43.6747550964,-79.4065093994,Finch,05:59:44,01:46:50,20180605
+166,dupont_station,Dupont  Northbound,43.6747550964,-79.4065093994,Finch,06:04:26,01:46:50,20180605
+167,dupont_station,Dupont  Northbound,43.6747550964,-79.4065093994,Finch,06:09:08,01:46:50,20180605
+168,st_clair_west_station,St Clair West  Northbound,43.6845397949,-79.4146728516,Downsview,01:47:39,01:46:50,20180605
+169,st_clair_west_station,St Clair West  Northbound,43.6845397949,-79.4146728516,Downsview,01:52:31,01:46:50,20180605
+170,st_clair_west_station,St Clair West  Northbound,43.6845397949,-79.4146728516,Downsview,01:57:23,01:46:50,20180605
+171,st_clair_west_station,St Clair West  Northbound,43.6845397949,-79.4146728516,Finch,05:57:15,01:46:50,20180605
+172,st_clair_west_station,St Clair West  Northbound,43.6845397949,-79.4146728516,Finch,06:01:57,01:46:50,20180605
+173,st_clair_west_station,St Clair West  Northbound,43.6845397949,-79.4146728516,Finch,06:06:39,01:46:50,20180605
+174,eglinton_west_station,Eglinton West  Northbound,43.6998062134,-79.4360122681,Downsview,01:47:41,01:46:50,20180605
+175,eglinton_west_station,Eglinton West  Northbound,43.6998062134,-79.4360122681,Downsview,01:52:33,01:46:50,20180605
+176,eglinton_west_station,Eglinton West  Northbound,43.6998062134,-79.4360122681,Downsview,01:57:25,01:46:50,20180605
+177,eglinton_west_station,Eglinton West  Northbound,43.6998062134,-79.4360122681,Finch,05:52:10,01:46:50,20180605
+178,eglinton_west_station,Eglinton West  Northbound,43.6998062134,-79.4360122681,Finch,05:56:52,01:46:50,20180605
+179,eglinton_west_station,Eglinton West  Northbound,43.6998062134,-79.4360122681,Finch,06:01:34,01:46:50,20180605
+180,glencairn_station,Glencairn,43.709186554,-79.4410247803,Downsview,01:50:05,01:46:50,20180605
+181,glencairn_station,Glencairn,43.709186554,-79.4410247803,Downsview,01:54:57,01:46:50,20180605
+182,glencairn_station,Glencairn,43.709186554,-79.4410247803,Downsview,01:59:49,01:46:50,20180605
+183,glencairn_station,Glencairn,43.709186554,-79.4410247803,Finch,05:49:38,01:46:50,20180605
+184,glencairn_station,Glencairn,43.709186554,-79.4410247803,Finch,05:54:20,01:46:50,20180605
+185,glencairn_station,Glencairn,43.709186554,-79.4410247803,Finch,05:59:02,01:46:50,20180605
+186,lawrence_west_station,Lawrence West,43.7153625488,-79.4439620972,Downsview,01:51:29,01:46:50,20180605
+187,lawrence_west_station,Lawrence West,43.7153625488,-79.4439620972,Downsview,01:56:21,01:46:50,20180605
+188,lawrence_west_station,Lawrence West,43.7153625488,-79.4439620972,Downsview,02:01:13,01:46:50,20180605
+189,lawrence_west_station,Lawrence West,43.7153625488,-79.4439620972,Finch,05:48:07,01:46:50,20180605
+190,lawrence_west_station,Lawrence West,43.7153625488,-79.4439620972,Finch,05:52:49,01:46:50,20180605
+191,lawrence_west_station,Lawrence West,43.7153625488,-79.4439620972,Finch,05:57:31,01:46:50,20180605
+192,yorkdale_station,Yorkdale,43.7247543335,-79.4475708008,Downsview,01:48:25,01:46:50,20180605
+193,yorkdale_station,Yorkdale,43.7247543335,-79.4475708008,Downsview,01:53:17,01:46:50,20180605
+194,yorkdale_station,Yorkdale,43.7247543335,-79.4475708008,Downsview,01:58:09,01:46:50,20180605
+195,yorkdale_station,Yorkdale,43.7247543335,-79.4475708008,Finch,05:46:13,01:46:50,20180605
+196,yorkdale_station,Yorkdale,43.7247543335,-79.4475708008,Finch,05:50:55,01:46:50,20180605
+197,yorkdale_station,Yorkdale,43.7247543335,-79.4475708008,Finch,05:55:37,01:46:50,20180605
+198,wilson_station,Wilson,43.7346572876,-79.4501953125,Downsview,01:50:27,01:46:50,20180605
+199,wilson_station,Wilson,43.7346572876,-79.4501953125,Downsview,01:55:19,01:46:50,20180605
+200,wilson_station,Wilson,43.7346572876,-79.4501953125,Downsview,02:00:11,01:46:50,20180605
+201,wilson_station,Wilson,43.7346572876,-79.4501953125,Finch,05:44:10,01:46:50,20180605
+202,wilson_station,Wilson,43.7346572876,-79.4501953125,Finch,05:48:52,01:46:50,20180605
+203,wilson_station,Wilson,43.7346572876,-79.4501953125,Finch,05:53:34,01:46:50,20180605
+204,downsview_station,Downsview,43.7491645813,-79.4621582031,Finch,05:40:09,01:46:50,20180605
+205,downsview_station,Downsview,43.7491645813,-79.4621582031,Finch,05:44:51,01:46:50,20180605
+206,downsview_station,Downsview,43.7491645813,-79.4621582031,Finch,05:49:33,01:46:50,20180605
+0,don_mills_station,Don Mills,43.7755470276,-79.3462905884,Sheppard-Yonge,01:52:09,01:46:54,20180605
+1,don_mills_station,Don Mills,43.7755470276,-79.3462905884,Sheppard-Yonge,01:57:39,01:46:54,20180605
+2,don_mills_station,Don Mills,43.7755470276,-79.3462905884,Sheppard-Yonge,02:03:09,01:46:54,20180605
+3,leslie_station,Leslie,43.7709274292,-79.3661499023,Don Mills,01:48:37,01:46:54,20180605
+4,leslie_station,Leslie,43.7709274292,-79.3661499023,Sheppard-Yonge,01:50:09,01:46:54,20180605
+5,leslie_station,Leslie,43.7709274292,-79.3661499023,Don Mills,01:54:07,01:46:54,20180605
+6,leslie_station,Leslie,43.7709274292,-79.3661499023,Sheppard-Yonge,01:55:39,01:46:54,20180605
+7,leslie_station,Leslie,43.7709274292,-79.3661499023,Don Mills,01:59:37,01:46:54,20180605
+8,leslie_station,Leslie,43.7709274292,-79.3661499023,Sheppard-Yonge,02:01:09,01:46:54,20180605
+9,bessarion_station,Bessarion,43.769115448,-79.3763427734,Don Mills,01:47:03,01:46:54,20180605
+10,bessarion_station,Bessarion,43.769115448,-79.3763427734,Sheppard-Yonge,01:51:45,01:46:54,20180605
+11,bessarion_station,Bessarion,43.769115448,-79.3763427734,Don Mills,01:52:33,01:46:54,20180605
+12,bessarion_station,Bessarion,43.769115448,-79.3763427734,Sheppard-Yonge,01:57:15,01:46:54,20180605
+13,bessarion_station,Bessarion,43.769115448,-79.3763427734,Don Mills,01:58:03,01:46:54,20180605
+14,bessarion_station,Bessarion,43.769115448,-79.3763427734,Sheppard-Yonge,02:02:45,01:46:54,20180605
+15,bayview_station,Bayview,43.7668495178,-79.3877868652,Sheppard-Yonge,01:48:03,01:46:54,20180605
+16,bayview_station,Bayview,43.7668495178,-79.3877868652,Don Mills,01:50:43,01:46:54,20180605
+17,bayview_station,Bayview,43.7668495178,-79.3877868652,Sheppard-Yonge,01:53:33,01:46:54,20180605
+18,bayview_station,Bayview,43.7668495178,-79.3877868652,Don Mills,01:56:13,01:46:54,20180605
+19,bayview_station,Bayview,43.7668495178,-79.3877868652,Sheppard-Yonge,01:59:03,01:46:54,20180605
+20,bayview_station,Bayview,43.7668495178,-79.3877868652,Don Mills,02:01:43,01:46:54,20180605
+21,sheppard-yonge_station,Sheppard-Yonge  Eastbound,43.7612228394,-79.4112472534,Don Mills,01:52:09,01:46:54,20180605
+22,sheppard-yonge_station,Sheppard-Yonge  Eastbound,43.7612228394,-79.4112472534,Don Mills,01:57:39,01:46:54,20180605
+23,sheppard-yonge_station,Sheppard-Yonge  Eastbound,43.7612228394,-79.4112472534,Don Mills,02:03:09,01:46:54,20180605
+24,sheppard-yonge_station,Sheppard-Yonge  Eastbound,43.7612228394,-79.4112472534,Finch,01:50:34,01:46:54,20180605
+25,sheppard-yonge_station,Sheppard-Yonge  Eastbound,43.7612228394,-79.4112472534,Finch,01:55:26,01:46:54,20180605
+26,sheppard-yonge_station,Sheppard-Yonge  Eastbound,43.7612228394,-79.4112472534,Finch,02:00:18,01:46:54,20180605
+27,sheppard-yonge_station,Sheppard-Yonge  Eastbound,43.7612228394,-79.4112472534,Downsview,06:07:29,01:46:54,20180605
+28,sheppard-yonge_station,Sheppard-Yonge  Eastbound,43.7612228394,-79.4112472534,Downsview,06:12:11,01:46:54,20180605
+29,sheppard-yonge_station,Sheppard-Yonge  Eastbound,43.7612228394,-79.4112472534,Downsview,06:16:53,01:46:54,20180605
+0,kipling_station,Kipling,43.6376037598,-79.5354690552,Kennedy,05:41:09,01:46:56,20180605
+1,kipling_station,Kipling,43.6376037598,-79.5354690552,Kennedy,05:43:30,01:46:56,20180605
+2,kipling_station,Kipling,43.6376037598,-79.5354690552,Kennedy,05:45:51,01:46:56,20180605
+3,islington_station,Islington,43.645362854,-79.5243606567,Kipling,01:49:44,01:46:56,20180605
+4,islington_station,Islington,43.645362854,-79.5243606567,Kipling,01:54:36,01:46:56,20180605
+5,islington_station,Islington,43.645362854,-79.5243606567,Kipling,01:59:28,01:46:56,20180605
+6,islington_station,Islington,43.645362854,-79.5243606567,Kennedy,05:43:49,01:46:56,20180605
+7,islington_station,Islington,43.645362854,-79.5243606567,Kennedy,05:46:10,01:46:56,20180605
+8,islington_station,Islington,43.645362854,-79.5243606567,Kennedy,05:48:31,01:46:56,20180605
+9,royal_york_station,Royal York  Eastbound,43.6484184265,-79.5097503662,Kennedy,05:45:51,01:46:56,20180605
+10,royal_york_station,Royal York  Eastbound,43.6484184265,-79.5097503662,Kennedy,05:48:12,01:46:56,20180605
+11,royal_york_station,Royal York  Eastbound,43.6484184265,-79.5097503662,Kennedy,05:50:33,01:46:56,20180605
+12,royal_york_station,Royal York  Eastbound,43.6484184265,-79.5097503662,Kipling,01:47:48,01:46:56,20180605
+13,royal_york_station,Royal York  Eastbound,43.6484184265,-79.5097503662,Kipling,01:52:40,01:46:56,20180605
+14,royal_york_station,Royal York  Eastbound,43.6484184265,-79.5097503662,Kipling,01:57:32,01:46:56,20180605
+15,old_mill_station,Old Mill  Eastbound,43.649684906,-79.4942626953,Kennedy,05:48:30,01:46:56,20180605
+16,old_mill_station,Old Mill  Eastbound,43.649684906,-79.4942626953,Kennedy,05:50:51,01:46:56,20180605
+17,old_mill_station,Old Mill  Eastbound,43.649684906,-79.4942626953,Kennedy,05:53:12,01:46:56,20180605
+18,old_mill_station,Old Mill  Eastbound,43.649684906,-79.4942626953,Kipling,01:50:07,01:46:56,20180605
+19,old_mill_station,Old Mill  Eastbound,43.649684906,-79.4942626953,Kipling,01:54:59,01:46:56,20180605
+20,old_mill_station,Old Mill  Eastbound,43.649684906,-79.4942626953,Kipling,01:59:51,01:46:56,20180605
+21,jane_station,Jane  Eastbound,43.6500015259,-79.4838943481,Kennedy,05:50:18,01:46:56,20180605
+22,jane_station,Jane  Eastbound,43.6500015259,-79.4838943481,Kennedy,05:52:39,01:46:56,20180605
+23,jane_station,Jane  Eastbound,43.6500015259,-79.4838943481,Kennedy,05:55:00,01:46:56,20180605
+24,jane_station,Jane  Eastbound,43.6500015259,-79.4838943481,Kipling,01:48:21,01:46:56,20180605
+25,jane_station,Jane  Eastbound,43.6500015259,-79.4838943481,Kipling,01:53:13,01:46:56,20180605
+26,jane_station,Jane  Eastbound,43.6500015259,-79.4838943481,Kipling,01:58:05,01:46:56,20180605
+27,runnymede_station,Runnymede  Eastbound,43.6516456604,-79.4758605957,Kennedy,05:51:40,01:46:56,20180605
+28,runnymede_station,Runnymede  Eastbound,43.6516456604,-79.4758605957,Kennedy,05:54:01,01:46:56,20180605
+29,runnymede_station,Runnymede  Eastbound,43.6516456604,-79.4758605957,Kennedy,05:56:22,01:46:56,20180605
+30,runnymede_station,Runnymede  Eastbound,43.6516456604,-79.4758605957,Kipling,01:47:02,01:46:56,20180605
+31,runnymede_station,Runnymede  Eastbound,43.6516456604,-79.4758605957,Kipling,01:51:54,01:46:56,20180605
+32,runnymede_station,Runnymede  Eastbound,43.6516456604,-79.4758605957,Kipling,01:56:46,01:46:56,20180605
+33,high_park_station,High Park  Eastbound,43.6537513733,-79.4666519165,Kennedy,05:53:26,01:46:56,20180605
+34,high_park_station,High Park  Eastbound,43.6537513733,-79.4666519165,Kennedy,05:55:47,01:46:56,20180605
+35,high_park_station,High Park  Eastbound,43.6537513733,-79.4666519165,Kennedy,05:58:08,01:46:56,20180605
+36,high_park_station,High Park  Eastbound,43.6537513733,-79.4666519165,Kipling,01:50:11,01:46:56,20180605
+37,high_park_station,High Park  Eastbound,43.6537513733,-79.4666519165,Kipling,01:55:03,01:46:56,20180605
+38,high_park_station,High Park  Eastbound,43.6537513733,-79.4666519165,Kipling,01:59:55,01:46:56,20180605
+39,keele_station,Keele  Eastbound,43.6554718018,-79.4595489502,Kennedy,05:54:18,01:46:56,20180605
+40,keele_station,Keele  Eastbound,43.6554718018,-79.4595489502,Kennedy,05:56:39,01:46:56,20180605
+41,keele_station,Keele  Eastbound,43.6554718018,-79.4595489502,Kennedy,05:59:00,01:46:56,20180605
+42,keele_station,Keele  Eastbound,43.6554718018,-79.4595489502,Kipling,01:49:23,01:46:56,20180605
+43,keele_station,Keele  Eastbound,43.6554718018,-79.4595489502,Kipling,01:54:15,01:46:56,20180605
+44,keele_station,Keele  Eastbound,43.6554718018,-79.4595489502,Kipling,01:59:07,01:46:56,20180605
+45,dundas_west_station,Dundas West  Eastbound,43.6567497253,-79.4535446167,Kennedy,05:55:33,01:46:56,20180605
+46,dundas_west_station,Dundas West  Eastbound,43.6567497253,-79.4535446167,Kennedy,05:57:54,01:46:56,20180605
+47,dundas_west_station,Dundas West  Eastbound,43.6567497253,-79.4535446167,Kennedy,06:00:15,01:46:56,20180605
+48,dundas_west_station,Dundas West  Eastbound,43.6567497253,-79.4535446167,Kipling,01:48:09,01:46:56,20180605
+49,dundas_west_station,Dundas West  Eastbound,43.6567497253,-79.4535446167,Kipling,01:53:01,01:46:56,20180605
+50,dundas_west_station,Dundas West  Eastbound,43.6567497253,-79.4535446167,Kipling,01:57:53,01:46:56,20180605
+51,lansdowne_station,Lansdowne  Eastbound,43.6589393616,-79.4425506592,Kennedy,05:57:06,01:46:56,20180605
+52,lansdowne_station,Lansdowne  Eastbound,43.6589393616,-79.4425506592,Kennedy,05:59:27,01:46:56,20180605
+53,lansdowne_station,Lansdowne  Eastbound,43.6589393616,-79.4425506592,Kennedy,06:01:48,01:46:56,20180605
+54,lansdowne_station,Lansdowne  Eastbound,43.6589393616,-79.4425506592,Kipling,01:51:33,01:46:56,20180605
+55,lansdowne_station,Lansdowne  Eastbound,43.6589393616,-79.4425506592,Kipling,01:56:25,01:46:56,20180605
+56,lansdowne_station,Lansdowne  Eastbound,43.6589393616,-79.4425506592,Kipling,02:01:17,01:46:56,20180605
+57,dufferin_station,Dufferin  Eastbound,43.6607475281,-79.4350585938,Kennedy,05:58:17,01:46:56,20180605
+58,dufferin_station,Dufferin  Eastbound,43.6607475281,-79.4350585938,Kennedy,06:00:38,01:46:56,20180605
+59,dufferin_station,Dufferin  Eastbound,43.6607475281,-79.4350585938,Kennedy,06:02:59,01:46:56,20180605
+60,dufferin_station,Dufferin  Eastbound,43.6607475281,-79.4350585938,Kipling,01:50:24,01:46:56,20180605
+61,dufferin_station,Dufferin  Eastbound,43.6607475281,-79.4350585938,Kipling,01:55:16,01:46:56,20180605
+62,dufferin_station,Dufferin  Eastbound,43.6607475281,-79.4350585938,Kipling,02:00:08,01:46:56,20180605
+63,ossington_station,Ossington  Eastbound,43.6621284485,-79.4269485474,Kennedy,05:59:52,01:46:56,20180605
+64,ossington_station,Ossington  Eastbound,43.6621284485,-79.4269485474,Kennedy,06:02:13,01:46:56,20180605
+65,ossington_station,Ossington  Eastbound,43.6621284485,-79.4269485474,Kennedy,06:04:34,01:46:56,20180605
+66,ossington_station,Ossington  Eastbound,43.6621284485,-79.4269485474,Kipling,01:48:53,01:46:56,20180605
+67,ossington_station,Ossington  Eastbound,43.6621284485,-79.4269485474,Kipling,01:53:45,01:46:56,20180605
+68,ossington_station,Ossington  Eastbound,43.6621284485,-79.4269485474,Kipling,01:58:37,01:46:56,20180605
+69,christie_station,Christie  Eastbound,43.664730072,-79.4179458618,Kennedy,01:47:36,01:46:56,20180605
+70,christie_station,Christie  Eastbound,43.664730072,-79.4179458618,Kennedy,06:01:04,01:46:56,20180605
+71,christie_station,Christie  Eastbound,43.664730072,-79.4179458618,Kennedy,06:03:25,01:46:56,20180605
+72,christie_station,Christie  Eastbound,43.664730072,-79.4179458618,Kipling,01:47:44,01:46:56,20180605
+73,christie_station,Christie  Eastbound,43.664730072,-79.4179458618,Kipling,01:52:36,01:46:56,20180605
+74,christie_station,Christie  Eastbound,43.664730072,-79.4179458618,Kipling,01:57:28,01:46:56,20180605
+75,bathurst_station,Bathurst  Eastbound,43.6659317017,-79.4119338989,Kennedy,01:48:44,01:46:56,20180605
+76,bathurst_station,Bathurst  Eastbound,43.6659317017,-79.4119338989,Kennedy,06:02:15,01:46:56,20180605
+77,bathurst_station,Bathurst  Eastbound,43.6659317017,-79.4119338989,Kennedy,06:04:36,01:46:56,20180605
+78,bathurst_station,Bathurst  Eastbound,43.6659317017,-79.4119338989,Kipling,01:51:28,01:46:56,20180605
+79,bathurst_station,Bathurst  Eastbound,43.6659317017,-79.4119338989,Kipling,01:56:20,01:46:56,20180605
+80,bathurst_station,Bathurst  Eastbound,43.6659317017,-79.4119338989,Kipling,06:12:31,01:46:56,20180605
+81,spadina_station,Spadina  Eastbound,43.6670265198,-79.4047622681,Kennedy,01:49:55,01:46:56,20180605
+82,spadina_station,Spadina  Eastbound,43.6670265198,-79.4047622681,Kennedy,06:03:29,01:46:56,20180605
+83,spadina_station,Spadina  Eastbound,43.6670265198,-79.4047622681,Kennedy,06:05:50,01:46:56,20180605
+84,spadina_station,Spadina  Eastbound,43.6670265198,-79.4047622681,Downsview,01:49:11,01:46:56,20180605
+85,spadina_station,Spadina  Eastbound,43.6670265198,-79.4047622681,Downsview,01:54:03,01:46:56,20180605
+86,spadina_station,Spadina  Eastbound,43.6670265198,-79.4047622681,Downsview,06:41:29,01:46:56,20180605
+87,spadina_station,Spadina  Eastbound,43.6670265198,-79.4047622681,Finch,06:00:48,01:46:56,20180605
+88,spadina_station,Spadina  Eastbound,43.6670265198,-79.4047622681,Finch,06:05:30,01:46:56,20180605
+89,spadina_station,Spadina  Eastbound,43.6670265198,-79.4047622681,Finch,06:10:12,01:46:56,20180605
+90,spadina_station,Spadina  Eastbound,43.6670265198,-79.4047622681,Kipling,01:50:18,01:46:56,20180605
+91,spadina_station,Spadina  Eastbound,43.6670265198,-79.4047622681,Kipling,01:55:10,01:46:56,20180605
+92,spadina_station,Spadina  Eastbound,43.6670265198,-79.4047622681,Kipling,06:11:19,01:46:56,20180605
+93,st_george_station,St George  East-West,43.6682662964,-79.3991165161,Kipling,01:49:28,01:46:56,20180605
+94,st_george_station,St George  East-West,43.6682662964,-79.3991165161,Kennedy,01:50:43,01:46:56,20180605
+95,st_george_station,St George  East-West,43.6682662964,-79.3991165161,Kipling,01:54:20,01:46:56,20180605
+96,st_george_station,St George  East-West,43.6682662964,-79.3991165161,Kennedy,06:04:20,01:46:56,20180605
+97,st_george_station,St George  East-West,43.6682662964,-79.3991165161,Kennedy,06:06:41,01:46:56,20180605
+98,st_george_station,St George  East-West,43.6682662964,-79.3991165161,Kipling,06:10:27,01:46:56,20180605
+99,st_george_station,St George  East-West,43.6682662964,-79.3991165161,Downsview,01:47:46,01:46:56,20180605
+100,st_george_station,St George  East-West,43.6682662964,-79.3991165161,Downsview,01:52:38,01:46:56,20180605
+101,st_george_station,St George  East-West,43.6682662964,-79.3991165161,Finch,06:02:16,01:46:56,20180605
+102,st_george_station,St George  East-West,43.6682662964,-79.3991165161,Finch,06:06:58,01:46:56,20180605
+103,st_george_station,St George  East-West,43.6682662964,-79.3991165161,Finch,06:11:40,01:46:56,20180605
+104,st_george_station,St George  East-West,43.6682662964,-79.3991165161,Downsview,06:40:00,01:46:56,20180605
+105,bay_station,Bay,43.6706962585,-79.3913726807,Kennedy,01:47:10,01:46:56,20180605
+106,bay_station,Bay,43.6706962585,-79.3913726807,Kipling,01:48:10,01:46:56,20180605
+107,bay_station,Bay,43.6706962585,-79.3913726807,Kennedy,01:52:02,01:46:56,20180605
+108,bay_station,Bay,43.6706962585,-79.3913726807,Kipling,01:53:02,01:46:56,20180605
+109,bay_station,Bay,43.6706962585,-79.3913726807,Kennedy,06:05:42,01:46:56,20180605
+110,bay_station,Bay,43.6706962585,-79.3913726807,Kipling,06:09:06,01:46:56,20180605
+111,bloor-yonge_station,Bloor-Yonge  East-West,43.6709594727,-79.3859939575,Kipling,01:47:30,01:46:56,20180605
+112,bloor-yonge_station,Bloor-Yonge  East-West,43.6709594727,-79.3859939575,Kennedy,01:47:51,01:46:56,20180605
+113,bloor-yonge_station,Bloor-Yonge  East-West,43.6709594727,-79.3859939575,Kipling,01:52:22,01:46:56,20180605
+114,bloor-yonge_station,Bloor-Yonge  East-West,43.6709594727,-79.3859939575,Kennedy,01:52:43,01:46:56,20180605
+115,bloor-yonge_station,Bloor-Yonge  East-West,43.6709594727,-79.3859939575,Kennedy,06:06:24,01:46:56,20180605
+116,bloor-yonge_station,Bloor-Yonge  East-West,43.6709594727,-79.3859939575,Kipling,06:08:24,01:46:56,20180605
+117,bloor-yonge_station,Bloor-Yonge  East-West,43.6709594727,-79.3859939575,Finch,01:50:50,01:46:56,20180605
+118,bloor-yonge_station,Bloor-Yonge  East-West,43.6709594727,-79.3859939575,Finch,01:55:42,01:46:56,20180605
+119,bloor-yonge_station,Bloor-Yonge  East-West,43.6709594727,-79.3859939575,Finch,06:14:34,01:46:56,20180605
+120,bloor-yonge_station,Bloor-Yonge  East-West,43.6709594727,-79.3859939575,Downsview,06:27:44,01:46:56,20180605
+121,bloor-yonge_station,Bloor-Yonge  East-West,43.6709594727,-79.3859939575,Downsview,06:32:26,01:46:56,20180605
+122,bloor-yonge_station,Bloor-Yonge  East-West,43.6709594727,-79.3859939575,Downsview,06:37:08,01:46:56,20180605
+123,sherbourne_station,Sherbourne  Eastbound,43.6717529297,-79.3759765625,Kennedy,01:49:14,01:46:56,20180605
+124,sherbourne_station,Sherbourne  Eastbound,43.6717529297,-79.3759765625,Kennedy,01:54:06,01:46:56,20180605
+125,sherbourne_station,Sherbourne  Eastbound,43.6717529297,-79.3759765625,Kennedy,06:07:51,01:46:56,20180605
+126,sherbourne_station,Sherbourne  Eastbound,43.6717529297,-79.3759765625,Kipling,01:50:57,01:46:56,20180605
+127,sherbourne_station,Sherbourne  Eastbound,43.6717529297,-79.3759765625,Kipling,06:06:56,01:46:56,20180605
+128,sherbourne_station,Sherbourne  Eastbound,43.6717529297,-79.3759765625,Kipling,06:09:17,01:46:56,20180605
+129,castle_frank_station,Castle Frank  Eastbound,43.6735420227,-79.3688583374,Kennedy,01:50:35,01:46:56,20180605
+130,castle_frank_station,Castle Frank  Eastbound,43.6735420227,-79.3688583374,Kennedy,01:55:27,01:46:56,20180605
+131,castle_frank_station,Castle Frank  Eastbound,43.6735420227,-79.3688583374,Kennedy,06:09:15,01:46:56,20180605
+132,castle_frank_station,Castle Frank  Eastbound,43.6735420227,-79.3688583374,Kipling,01:49:38,01:46:56,20180605
+133,castle_frank_station,Castle Frank  Eastbound,43.6735420227,-79.3688583374,Kipling,06:05:33,01:46:56,20180605
+134,castle_frank_station,Castle Frank  Eastbound,43.6735420227,-79.3688583374,Kipling,06:07:54,01:46:56,20180605
+135,broadview_station,Broadview  Eastbound,43.6768798828,-79.3581924438,Kennedy,01:47:22,01:46:56,20180605
+136,broadview_station,Broadview  Eastbound,43.6768798828,-79.3581924438,Kennedy,01:52:14,01:46:56,20180605
+137,broadview_station,Broadview  Eastbound,43.6768798828,-79.3581924438,Kennedy,01:57:06,01:46:56,20180605
+138,broadview_station,Broadview  Eastbound,43.6768798828,-79.3581924438,Kipling,01:47:59,01:46:56,20180605
+139,broadview_station,Broadview  Eastbound,43.6768798828,-79.3581924438,Kipling,06:03:50,01:46:56,20180605
+140,broadview_station,Broadview  Eastbound,43.6768798828,-79.3581924438,Kipling,06:06:11,01:46:56,20180605
+141,chester_station,Chester  Eastbound,43.6780166626,-79.3526382446,Kennedy,01:48:29,01:46:56,20180605
+142,chester_station,Chester  Eastbound,43.6780166626,-79.3526382446,Kennedy,01:53:21,01:46:56,20180605
+143,chester_station,Chester  Eastbound,43.6780166626,-79.3526382446,Kennedy,01:58:13,01:46:56,20180605
+144,chester_station,Chester  Eastbound,43.6780166626,-79.3526382446,Kipling,06:02:40,01:46:56,20180605
+145,chester_station,Chester  Eastbound,43.6780166626,-79.3526382446,Kipling,06:05:01,01:46:56,20180605
+146,chester_station,Chester  Eastbound,43.6780166626,-79.3526382446,Kipling,06:07:22,01:46:56,20180605
+147,pape_station,Pape  Eastbound,43.6796684265,-79.3442840576,Kennedy,01:49:27,01:46:56,20180605
+148,pape_station,Pape  Eastbound,43.6796684265,-79.3442840576,Kennedy,01:54:19,01:46:56,20180605
+149,pape_station,Pape  Eastbound,43.6796684265,-79.3442840576,Kennedy,01:59:11,01:46:56,20180605
+150,pape_station,Pape  Eastbound,43.6796684265,-79.3442840576,Kipling,06:01:38,01:46:56,20180605
+151,pape_station,Pape  Eastbound,43.6796684265,-79.3442840576,Kipling,06:03:59,01:46:56,20180605
+152,pape_station,Pape  Eastbound,43.6796684265,-79.3442840576,Kipling,06:06:20,01:46:56,20180605
+153,donlands_station,Donlands  Eastbound,43.6808776855,-79.3381729126,Kennedy,01:50:35,01:46:56,20180605
+154,donlands_station,Donlands  Eastbound,43.6808776855,-79.3381729126,Kennedy,01:55:27,01:46:56,20180605
+155,donlands_station,Donlands  Eastbound,43.6808776855,-79.3381729126,Kennedy,02:00:19,01:46:56,20180605
+156,donlands_station,Donlands  Eastbound,43.6808776855,-79.3381729126,Kipling,06:00:28,01:46:56,20180605
+157,donlands_station,Donlands  Eastbound,43.6808776855,-79.3381729126,Kipling,06:02:49,01:46:56,20180605
+158,donlands_station,Donlands  Eastbound,43.6808776855,-79.3381729126,Kipling,06:05:10,01:46:56,20180605
+159,greenwood_station,Greenwood  Eastbound,43.6822280884,-79.3308944702,Kennedy,01:51:48,01:46:56,20180605
+160,greenwood_station,Greenwood  Eastbound,43.6822280884,-79.3308944702,Kennedy,01:56:40,01:46:56,20180605
+161,greenwood_station,Greenwood  Eastbound,43.6822280884,-79.3308944702,Kennedy,02:01:32,01:46:56,20180605
+162,greenwood_station,Greenwood  Eastbound,43.6822280884,-79.3308944702,Kipling,05:59:13,01:46:56,20180605
+163,greenwood_station,Greenwood  Eastbound,43.6822280884,-79.3308944702,Kipling,06:01:34,01:46:56,20180605
+164,greenwood_station,Greenwood  Eastbound,43.6822280884,-79.3308944702,Kipling,06:03:55,01:46:56,20180605
+165,coxwell_station,Coxwell  Eastbound,43.6838340759,-79.3233184814,Kennedy,01:47:59,01:46:56,20180605
+166,coxwell_station,Coxwell  Eastbound,43.6838340759,-79.3233184814,Kennedy,01:52:51,01:46:56,20180605
+167,coxwell_station,Coxwell  Eastbound,43.6838340759,-79.3233184814,Kennedy,01:57:43,01:46:56,20180605
+168,coxwell_station,Coxwell  Eastbound,43.6838340759,-79.3233184814,Kipling,05:58:06,01:46:56,20180605
+169,coxwell_station,Coxwell  Eastbound,43.6838340759,-79.3233184814,Kipling,06:00:27,01:46:56,20180605
+170,coxwell_station,Coxwell  Eastbound,43.6838340759,-79.3233184814,Kipling,06:02:48,01:46:56,20180605
+171,woodbine_station,Woodbine  Eastbound,43.6862602234,-79.3120269775,Kennedy,01:49:35,01:46:56,20180605
+172,woodbine_station,Woodbine  Eastbound,43.6862602234,-79.3120269775,Kennedy,01:54:27,01:46:56,20180605
+173,woodbine_station,Woodbine  Eastbound,43.6862602234,-79.3120269775,Kennedy,01:59:19,01:46:56,20180605
+174,woodbine_station,Woodbine  Eastbound,43.6862602234,-79.3120269775,Kipling,05:56:29,01:46:56,20180605
+175,woodbine_station,Woodbine  Eastbound,43.6862602234,-79.3120269775,Kipling,05:58:50,01:46:56,20180605
+176,woodbine_station,Woodbine  Eastbound,43.6862602234,-79.3120269775,Kipling,06:01:11,01:46:56,20180605
+177,main_street_station,Main Street  Eastbound,43.689201355,-79.3014602661,Kennedy,01:51:16,01:46:56,20180605
+178,main_street_station,Main Street  Eastbound,43.689201355,-79.3014602661,Kennedy,01:56:08,01:46:56,20180605
+179,main_street_station,Main Street  Eastbound,43.689201355,-79.3014602661,Kennedy,02:01:00,01:46:56,20180605
+180,main_street_station,Main Street  Eastbound,43.689201355,-79.3014602661,Kipling,05:54:43,01:46:56,20180605
+181,main_street_station,Main Street  Eastbound,43.689201355,-79.3014602661,Kipling,05:57:04,01:46:56,20180605
+182,main_street_station,Main Street  Eastbound,43.689201355,-79.3014602661,Kipling,05:59:25,01:46:56,20180605
+183,victoria_park_station,Victoria Park  Eastbound,43.6948280334,-79.2884292603,Kennedy,01:48:34,01:46:56,20180605
+184,victoria_park_station,Victoria Park  Eastbound,43.6948280334,-79.2884292603,Kennedy,01:53:26,01:46:56,20180605
+185,victoria_park_station,Victoria Park  Eastbound,43.6948280334,-79.2884292603,Kennedy,01:58:18,01:46:56,20180605
+186,victoria_park_station,Victoria Park  Eastbound,43.6948280334,-79.2884292603,Kipling,05:52:28,01:46:56,20180605
+187,victoria_park_station,Victoria Park  Eastbound,43.6948280334,-79.2884292603,Kipling,05:54:49,01:46:56,20180605
+188,victoria_park_station,Victoria Park  Eastbound,43.6948280334,-79.2884292603,Kipling,05:57:10,01:46:56,20180605
+189,warden_station,Warden,43.7113685608,-79.2790145874,Kennedy,01:48:01,01:46:56,20180605
+190,warden_station,Warden,43.7113685608,-79.2790145874,Kennedy,01:52:53,01:46:56,20180605
+191,warden_station,Warden,43.7113685608,-79.2790145874,Kennedy,01:57:45,01:46:56,20180605
+192,warden_station,Warden,43.7113685608,-79.2790145874,Kipling,05:47:59,01:46:56,20180605
+193,warden_station,Warden,43.7113685608,-79.2790145874,Kipling,05:50:20,01:46:56,20180605
+194,warden_station,Warden,43.7113685608,-79.2790145874,Kipling,05:52:41,01:46:56,20180605
+195,kennedy_station,Kennedy,43.7326164246,-79.263633728,McCowan,06:01:09,01:46:56,20180605
+196,kennedy_station,Kennedy,43.7326164246,-79.263633728,McCowan,06:04:39,01:46:56,20180605
+197,kennedy_station,Kennedy,43.7326164246,-79.263633728,McCowan,06:08:09,01:46:56,20180605
+198,kennedy_station,Kennedy,43.7326164246,-79.263633728,Kipling,05:43:09,01:46:56,20180605
+199,kennedy_station,Kennedy,43.7326164246,-79.263633728,Kipling,05:45:30,01:46:56,20180605
+200,kennedy_station,Kennedy,43.7326164246,-79.263633728,Kipling,05:47:51,01:46:56,20180605
+0,kennedy_station,Kennedy  Rapid Transit,43.7325019836,-79.2637023926,McCowan,06:01:09,01:47:00,20180605
+1,kennedy_station,Kennedy  Rapid Transit,43.7325019836,-79.2637023926,McCowan,06:04:39,01:47:00,20180605
+2,kennedy_station,Kennedy  Rapid Transit,43.7325019836,-79.2637023926,McCowan,06:08:09,01:47:00,20180605
+3,kennedy_station,Kennedy  Rapid Transit,43.7325019836,-79.2637023926,Kipling,05:43:09,01:47:00,20180605
+4,kennedy_station,Kennedy  Rapid Transit,43.7325019836,-79.2637023926,Kipling,05:45:30,01:47:00,20180605
+5,kennedy_station,Kennedy  Rapid Transit,43.7325019836,-79.2637023926,Kipling,05:47:51,01:47:00,20180605
+6,lawrence_east_station,Lawrence East,43.7505149841,-79.2701339722,Kennedy,05:52:10,01:47:00,20180605
+7,lawrence_east_station,Lawrence East,43.7505149841,-79.2701339722,Kennedy,05:55:40,01:47:00,20180605
+8,lawrence_east_station,Lawrence East,43.7505149841,-79.2701339722,Kennedy,05:59:10,01:47:00,20180605
+9,lawrence_east_station,Lawrence East,43.7505149841,-79.2701339722,McCowan,06:04:39,01:47:00,20180605
+10,lawrence_east_station,Lawrence East,43.7505149841,-79.2701339722,McCowan,06:08:09,01:47:00,20180605
+11,lawrence_east_station,Lawrence East,43.7505149841,-79.2701339722,McCowan,06:11:39,01:47:00,20180605
+12,ellesmere_station,Ellesmere,43.7668495178,-79.2762298584,Kennedy,05:49:01,01:47:00,20180605
+13,ellesmere_station,Ellesmere,43.7668495178,-79.2762298584,Kennedy,05:52:31,01:47:00,20180605
+14,ellesmere_station,Ellesmere,43.7668495178,-79.2762298584,Kennedy,05:56:01,01:47:00,20180605
+15,ellesmere_station,Ellesmere,43.7668495178,-79.2762298584,McCowan,06:07:49,01:47:00,20180605
+16,ellesmere_station,Ellesmere,43.7668495178,-79.2762298584,McCowan,06:11:19,01:47:00,20180605
+17,ellesmere_station,Ellesmere,43.7668495178,-79.2762298584,McCowan,06:14:49,01:47:00,20180605
+18,midland_station,Midland,43.7704734802,-79.2718963623,Kennedy,05:48:04,01:47:00,20180605
+19,midland_station,Midland,43.7704734802,-79.2718963623,Kennedy,05:51:34,01:47:00,20180605
+20,midland_station,Midland,43.7704734802,-79.2718963623,Kennedy,05:55:04,01:47:00,20180605
+21,midland_station,Midland,43.7704734802,-79.2718963623,McCowan,06:08:45,01:47:00,20180605
+22,midland_station,Midland,43.7704734802,-79.2718963623,McCowan,06:12:15,01:47:00,20180605
+23,midland_station,Midland,43.7704734802,-79.2718963623,McCowan,06:15:45,01:47:00,20180605
+24,scarborough_centre_station,Scarborough Centre,43.774646759,-79.2572860718,Kennedy,05:46:01,01:47:00,20180605
+25,scarborough_centre_station,Scarborough Centre,43.774646759,-79.2572860718,Kennedy,05:49:31,01:47:00,20180605
+26,scarborough_centre_station,Scarborough Centre,43.774646759,-79.2572860718,Kennedy,05:53:01,01:47:00,20180605
+27,scarborough_centre_station,Scarborough Centre,43.774646759,-79.2572860718,McCowan,06:10:45,01:47:00,20180605
+28,scarborough_centre_station,Scarborough Centre,43.774646759,-79.2572860718,McCowan,06:14:15,01:47:00,20180605
+29,scarborough_centre_station,Scarborough Centre,43.774646759,-79.2572860718,McCowan,06:17:45,01:47:00,20180605
+30,mccowan_station,Mccowan,43.774936676,-79.2523269653,Kennedy,05:45:09,01:47:00,20180605
+31,mccowan_station,Mccowan,43.774936676,-79.2523269653,Kennedy,05:48:39,01:47:00,20180605
+32,mccowan_station,Mccowan,43.774936676,-79.2523269653,Kennedy,05:52:09,01:47:00,20180605
