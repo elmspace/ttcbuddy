@@ -14,14 +14,16 @@ ttc_data_collector_obj = ttc_data_collector();
 mysql_db_obj = mysql_db();
 
 
-#for i in range(500):
-data = ttc_data_collector_obj.ttc_subway_data_collector();
+for i in range(500):
+	try:
+		data = ttc_data_collector_obj.ttc_subway_data_collector();
+		mysql_db_obj.Insert_Data(data,"ttc_subway_data");
+		print("loading");
+		time.sleep(60*5);
+	except Exception as e:
+		print("error");
+		pass;
 
-data.to_csv("test.csv");
-
-# mysql_db_obj.Insert_Data(data,"ttc_subway_data");
-# print("loading");
-# time.sleep(60*10);
 
 
 # data = mysql_db_obj.Select_Data("ttc_subway_data");
