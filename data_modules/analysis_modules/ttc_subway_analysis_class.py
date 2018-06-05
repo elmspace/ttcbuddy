@@ -27,7 +27,10 @@ class ttc_subway_analysis_class:
 		return data;
 
 
-
+	def GetHistoricalData(self, from_station, to_station, today_date):
+		sql_query_condition = "where current_station_name ='"+str(from_station)+"' and to_station = '"+str(to_station)+"' and collection_date = '"+str(today_date)+"'";
+		data = self._mysql_db_obj.Select_Data_with_Condition("ttc_subway_data",sql_query_condition);
+		return data;
 
 
 

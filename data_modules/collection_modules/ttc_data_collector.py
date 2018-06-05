@@ -26,19 +26,19 @@ class ttc_data_collector:
 			station_lng.append(i["lng"]);
 			station_pretty_name.append(i["name"].replace("Station","").replace("Platform","").replace("Subway","").strip());
   
-		subway_data = pd.DataFrame(columns=["current_station_uri","current_station_name","lat","lng","to_station","departure_time","current_time","current_date"]);
+		subway_data = pd.DataFrame(columns=["current_station_uri","current_station_name","lat","lng","to_station","departure_time","collection_time","collection_date"]);
 
 		current_station = [];
 		to_station = [];
 		departure_time = [];
-		current_time = [];
-		current_date = [];
+		collection_time = [];
+		collection_date = [];
 		current_lat = [];
 		current_lng = [];
 		current_pretty_name = [];
 
-		current_time_val = time.strftime('%H:%M:%S');
-		current_date_val = time.strftime('%Y-%m-%d');
+		collection_time_val = time.strftime('%H:%M:%S');
+		collection_date_val = time.strftime('%Y%m%d');
 
 		for count in range(len(station_names)):
 			name = station_names[count];
@@ -58,14 +58,14 @@ class ttc_data_collector:
 							to_station.append(k["shape"].split("To")[1].strip().replace("Station","").replace("Platform","").replace("Subway","").strip());
 							departure_time_val = time.strftime('%H:%M:%S', time.localtime(int(k["departure_timestamp"])))
 							departure_time.append(departure_time_val);
-							current_time.append(current_time_val);
-							current_date.append(current_date_val);
+							collection_time.append(collection_time_val);
+							collection_date.append(collection_date_val);
 
 		subway_data["current_station_uri"] = current_station;
 		subway_data["to_station"] = to_station;
 		subway_data["departure_time"] = departure_time;
-		subway_data["current_time"] = current_time;
-		subway_data["current_date"] = current_date;
+		subway_data["collection_time"] = collection_time;
+		subway_data["collection_date"] = collection_date;
 		subway_data["current_station_name"] = current_pretty_name;
 		subway_data["lat"] = current_lat;
 		subway_data["lng"] = current_lng;

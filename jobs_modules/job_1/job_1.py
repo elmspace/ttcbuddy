@@ -14,13 +14,17 @@ ttc_data_collector_obj = ttc_data_collector();
 mysql_db_obj = mysql_db();
 
 
-for i in range(500):
-	data = ttc_data_collector_obj.ttc_subway_data_collector();
-	print(data)
-	mysql_db_obj.Insert_Data(data,"ttc_subway_data");
-	print("loading");
-	time.sleep(60*10);
+# for i in range(500):
+# 	data = ttc_data_collector_obj.ttc_subway_data_collector();
+# 	print(data)
+# 	mysql_db_obj.Insert_Data(data,"ttc_subway_data");
+# 	print("loading");
+# 	time.sleep(60*10);
 
 
 # data = mysql_db_obj.Select_Data("ttc_subway_data");
-# print(len(data));
+# current_date = data["current_date"];
+# current_date = [i.replace("-","") for i in current_date];
+# data["current_date"] = current_date;
+# print(data.head());
+# mysql_db_obj.Insert_Data(data,"ttc_subway_data_cp");

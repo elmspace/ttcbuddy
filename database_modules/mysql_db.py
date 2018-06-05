@@ -40,5 +40,12 @@ class mysql_db:
 		data = pd.read_sql_query(sql_query, connection);
 		return data;
 
+
+	def Select_Data_with_Condition(self, input_TableName, input_Condition):
+		connection = self._sql_engine.connect();
+		sql_query = "Select * From "+str(input_TableName)+" "+input_Condition;
+		data = pd.read_sql_query(sql_query, connection);
+		return data;
+
 if __name__=="__main__":
 	pass;

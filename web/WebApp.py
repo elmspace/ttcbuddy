@@ -32,10 +32,6 @@ sideBarAppList = [
 					html.Div(
 						className = "Template_LeftColumnSection",
 						children = [html.H6("TTC BUDDY")]
-					),
-					html.Div(
-						className = "Template_LeftColumnElement",
-						children = [dcc.Link('Subways', href='/SubwayDashboard')]
 					)
 				]
 
@@ -78,7 +74,7 @@ def display_page(pathname):
 	if pathname == '/SubwayDashboard':
 		return subway_dashboard_obj.Layout();
 	else:
-		return index_page;
+		return subway_dashboard_obj.Layout();
 
 
 
