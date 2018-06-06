@@ -19,7 +19,7 @@ for i in range(500):
 		data = ttc_data_collector_obj.ttc_subway_data_collector();
 		mysql_db_obj.Insert_Data(data,"ttc_subway_data");
 		print("loading");
-		time.sleep(60*5);
+		time.sleep(60);
 	except Exception as e:
 		print("error");
 		pass;
