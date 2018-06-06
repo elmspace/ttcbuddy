@@ -72,52 +72,40 @@ class subway_dashboard:
 		@appObj.callback(dash.dependencies.Output('TTCSubwayMapNextTrainHistory', 'figure'),[dash.dependencies.Input('MakeTTCSubwayFilterList', 'value')])
 		def update_WIRP_PnLPlot(StationName):
 			
+			data = [];
+			#for StationName in self.ttc_filter_list["station_dest_list"]:
+				#try:
 			from_station = StationName.split("-towards-")[0].strip();
 			to_station = StationName.split("-towards-")[1].strip();
 			today_date = time.strftime('%Y%m%d');
 
 			time_sample_list,delta_next_train_list = self.GetHistoricalDataAndProccessIt(from_station,to_station,today_date);
 
-
-
 			data_to_plot = go.Scatter(
 				x=time_sample_list,
 				y=delta_next_train_list,
 				mode = 'lines+markers',
-				name='Minutes to Next Train'
+				name= from_station
 			)
-			data = [data_to_plot];
+
+			data.append(data_to_plot);
+				# except Exception as e:
+				# 	pass;
+
+
 			layout = go.Layout(
 				font=dict(color='#CCCCCC'),
 				plot_bgcolor="#191A1A",
 				paper_bgcolor="#020202",
 				autosize=True,
 				hovermode='closest',
-				xaxis=dict(
-					showgrid=True,
-					zeroline=True,
-					showline=True,
-					mirror='ticks',
-					gridcolor='#bdbdbd',
-					gridwidth=0.5,
-					zerolinecolor='#969696',
-					zerolinewidth=0.5,
-					linecolor='#636363',
-					linewidth=0.5
-				),
+				xaxis=dict(),
 				yaxis=dict(
-					showgrid=True,
-					showline=True,
-					gridcolor='#bdbdbd',
-					range=[0, 10],
 					title="Time to Next Train (min)",
 					zeroline=True,
 					mirror='ticks',
-					gridwidth=0.5,
 					zerolinecolor='#969696',
-					zerolinewidth=0.5,
 					linecolor='#636363',
-					linewidth=0.5
 				)
 			)
 			return go.Figure(data=data, layout=layout)
@@ -129,24 +117,37 @@ class subway_dashboard:
 		unique_time = list(set(list(data["collection_time"])));
 		time_sample_list = [];
 		delta_next_train_list = [];
+		unique_time.sort()
 
+
+		next_train_collection_date = [];
+		next_train_collection_time = [];
+		next_train_time_list = [];
 		for i in unique_time:
 			temp_DF = data[data["collection_time"] == i];
 
-			collection_date = list(temp_DF["collection_date"])[1];
-			departure_time_1 = list(temp_DF["departure_time"])[1];
-			departure_time_2 = list(temp_DF["departure_time"])[2];
+			next_train_at = list(temp_DF["departure_time"])[0];
+			collection_date_val = list(temp_DF["collection_date"])[0];
+			if((next_train_at in next_train_time_list)==False):
+				next_train_time_list.append(next_train_at);
+				next_train_collection_date.append(collection_date_val);
+				next_train_collection_time.append(i);
 
-			departure_time_1 = datetime.strptime(collection_date+" "+departure_time_1, '%Y%m%d %H:%M:%S');
-			departure_time_2 = datetime.strptime(collection_date+" "+departure_time_2, '%Y%m%d %H:%M:%S');
+		next_train_delta_time_list = [];
+		for i in range(len(next_train_time_list)-1):
+			t0 = next_train_time_list[i];
+			t1 = next_train_time_list[i+1];
+			t0 = datetime.strptime(next_train_collection_date[i]+" "+t0, '%Y%m%d %H:%M:%S');
+			t1 = datetime.strptime(next_train_collection_date[i]+" "+t1, '%Y%m%d %H:%M:%S');
 
-			delta_next_train = abs(departure_time_2 - departure_time_1);
+			delta_next_train = abs(t1 - t0);
 			delta_next_train = str(delta_next_train);
 			delta_next_train = delta_next_train.split(":");
 			delta_next_train = float((float(delta_next_train[0])*60.0*60.0)+(float(delta_next_train[1]))+(float(delta_next_train[2])/60.0));
 
-			time_sample_list.append(i);
+			time_sample_list.append(next_train_collection_time[i]);
 			delta_next_train_list.append(delta_next_train);
+
 
 		return time_sample_list,delta_next_train_list;
 
@@ -173,6 +174,8 @@ class subway_dashboard:
 			temp["value"] = i;
 			options.append(temp);
 		FilterList["options"] = options;
+		FilterList["station_dest_list"] = station_direction_comb;
+
 		return FilterList;
 
 
