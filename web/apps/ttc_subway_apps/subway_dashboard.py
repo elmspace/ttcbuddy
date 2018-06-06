@@ -20,33 +20,47 @@ class subway_dashboard:
 		self.side_NavBar = side_NavBar;
 		self.ttc_subway_analysis_obj = ttc_subway_analysis_obj;
 
-		ttcdata = self.ttc_subway_analysis_obj.Get_Live_TTC_Subway_Data();
+		self.ttcdata = self.ttc_subway_analysis_obj.Get_Live_TTC_Subway_Data();
 
-		self.ttc_subway_map = self.MakeTTCSubwayMapWithNextTrain(ttcdata);
-		self.ttc_filter_list = self.MakeTTCSubwayFilterList(ttcdata);
+		self.ttc_subway_map = self.MakeTTCSubwayMapWithNextTrain(self.ttcdata);
+		self.ttc_filter_list = self.MakeTTCSubwayFilterList(self.ttcdata);
 
 	def Layout(self):
 		######################################################################################
 		######################################################################################
 		content = html.Div([
-					dcc.Dropdown(
-						id="MakeTTCSubwayFilterList",
-						value = self.ttc_filter_list["value"],
-						options = self.ttc_filter_list["options"],
-						multi=False
-					),
-					html.Br([]),
-					html.H6('TTC Subway Map - Next Train',className="gs-header gs-text-header padded"),
-					dcc.Graph(
-						id='TTCSubwayMapNextTrain',
-						figure=self.ttc_subway_map,
-						config={'displayModeBar': False}
-					),
-					html.Br([]),
-					dcc.Graph(
-						id='TTCSubwayMapNextTrainHistory',
-						config={'displayModeBar': False}
-					)
+					html.Div(className="rowSection row", children=[
+						html.Div(className="leftSection",children=[
+							html.H6('Select a Station:',className="gs-header gs-text-header padded"),
+							dcc.Dropdown(
+								id="MakeTTCSubwayFilterList",
+								value = self.ttc_filter_list["value"],
+								options = self.ttc_filter_list["options"],
+								multi=False
+							)
+						]),
+						html.Div(className="rightSection",children=[
+							html.H6('Next Departure Time:',className="gs-header gs-text-header padded"),
+							html.Div(id="NextTrainDataTable")
+						])
+					]),
+					html.Div(className="rowSection row", children=[
+						html.Div(className="leftSection",children=[
+							html.H6('TTC Subway Map - Next Train',className="gs-header gs-text-header padded"),
+							dcc.Graph(
+								id='TTCSubwayMapNextTrain',
+								figure=self.ttc_subway_map,
+								config={'displayModeBar': False}
+							)
+						]),
+						html.Div(className="rightSection",children=[
+							html.H6("Today's Performance",className="gs-header gs-text-header padded"),
+							dcc.Graph(
+								id='TTCSubwayMapNextTrainHistory',
+								config={'displayModeBar': False}
+							)
+						])
+					])
 				]);
 		######################################################################################
 		######################################################################################
@@ -70,33 +84,23 @@ class subway_dashboard:
 
 	def BindCallBackFunctions(self, appObj):
 		@appObj.callback(dash.dependencies.Output('TTCSubwayMapNextTrainHistory', 'figure'),[dash.dependencies.Input('MakeTTCSubwayFilterList', 'value')])
-		def update_WIRP_PnLPlot(StationName):
-			
+		def Update_Historical_Station_Data(StationName):
 			data = [];
-			#for StationName in self.ttc_filter_list["station_dest_list"]:
-				#try:
 			from_station = StationName.split("-towards-")[0].strip();
 			to_station = StationName.split("-towards-")[1].strip();
 			today_date = time.strftime('%Y%m%d');
-
 			time_sample_list,delta_next_train_list = self.GetHistoricalDataAndProccessIt(from_station,to_station,today_date);
-
 			data_to_plot = go.Scatter(
 				x=time_sample_list,
 				y=delta_next_train_list,
-				mode = 'lines+markers',
+				mode = 'lines',
 				name= from_station
 			)
-
 			data.append(data_to_plot);
-				# except Exception as e:
-				# 	pass;
-
-
 			layout = go.Layout(
 				font=dict(color='#CCCCCC'),
-				plot_bgcolor="#191A1A",
-				paper_bgcolor="#020202",
+				plot_bgcolor="black",
+				paper_bgcolor="black",
 				autosize=True,
 				hovermode='closest',
 				xaxis=dict(),
@@ -109,6 +113,24 @@ class subway_dashboard:
 				)
 			)
 			return go.Figure(data=data, layout=layout)
+
+
+		@appObj.callback(dash.dependencies.Output('NextTrainDataTable', 'children'),[dash.dependencies.Input('MakeTTCSubwayFilterList', 'value')])
+		def Update_Next_Train_Data(StationName):
+
+			from_station = StationName.split("-towards-")[0].strip();
+			to_station = StationName.split("-towards-")[1].strip();
+			
+			TableData = self.ttcdata[(self.ttcdata["current_station_name"]== from_station) & (self.ttcdata["to_station"]== to_station)];
+
+			columnsToKeep = ["current_station_name" , "to_station" , "departure_time"];
+			TableData = TableData[columnsToKeep];
+			TableData.columns = ["From","Towards","Departure Time"];
+
+			return html.Table(make_dash_table(TableData),className="darkTable")
+
+
+
 
 
 

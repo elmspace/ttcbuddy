@@ -39,19 +39,21 @@ body {
 	left:0;
 	width: 100%;
 	height: 100%;
+	margin-right: 0px !important;
+	margin-left: 0px !important;
 }
 
 .Template_LeftColumn{
-	width: 100%;
-	background-color: #3F51B5;
+	width: 10%;
+	background-color: black;
 	height: 100%;
 }
 
 .Template_RightColumn{
-	width: 100%;
+	width: 90%;
 	height: 100%;
-	padding-left: 300px;
-	padding-right: 300px;
+	padding-left: 30px;
+	padding-right: 10px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	overflow-y: scroll;
@@ -98,8 +100,17 @@ body {
 }
 
 
-.sectionElement{
-	
+.rowSection{
+	width: 100%;
+	height: 100%;
+}
+.leftSection{
+	width: 50%;
+	padding: 2px;
+}
+.rightSection{
+	width: 50%;
+	padding: 2px;
 }
 
 
@@ -109,12 +120,15 @@ body {
 	}
 	.Template_RightColumn{
 		width: 80%;
-		padding-left: 100px;
-		padding-right: 100px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.rightSection, .leftSection{
+		width: 100%;
 	}
 }
 
-@media only screen and (max-width: 5000px) {
+@media only screen and (max-width: 1000px) {
 	.Template_LeftColumn{
 		width: 100%;
 		height: auto;
@@ -122,8 +136,11 @@ body {
 	}
 	.Template_RightColumn{
 		width: 100%;
-		padding-left: 50px;
-		padding-right: 50px;
+		padding-left: 20px;
+		padding-right: 5px;
+	}
+	.rightSection, .leftSection{
+		width: 100%;
 	}
 }
 
@@ -163,4 +180,60 @@ h6{
 .topSectionHeader{
 	margin: 0 auto;
 	text-align: center;
+}
+
+
+
+
+table.darkTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0px solid #000000;
+  background-color: #4A4A4A;
+  width: 100%;
+  height: 200%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.darkTable td, table.darkTable th {
+  border: 1px solid #4A4A4A;
+  padding: 5px 5px;
+}
+table.darkTable tbody td {
+  font-size: 13px;
+  color: #FFFFFF;
+}
+table.darkTable tr:nth-child(even) {
+  background: #888888;
+}
+table.darkTable thead {
+  background: #000000;
+  border-bottom: 3px solid #000000;
+}
+table.darkTable thead th {
+  font-size: 15px;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #4A4A4A;
+}
+table.darkTable thead th:first-child {
+  border-left: none;
+}
+
+table.darkTable tfoot {
+  font-size: 12px;
+  font-weight: normal;
+  color: #E6E6E6;
+  background: #000000;
+  background: -moz-linear-gradient(top, #404040 0%, #191919 66%, #000000 100%);
+  background: -webkit-linear-gradient(top, #404040 0%, #191919 66%, #000000 100%);
+  background: linear-gradient(to bottom, #404040 0%, #191919 66%, #000000 100%);
+  border-top: 1px solid #4A4A4A;
+}
+table.darkTable tfoot td {
+  font-size: 12px;
+}
+
+table{
+	color: white;
 }
