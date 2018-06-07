@@ -22,13 +22,14 @@ class subway_dashboard:
 
 		self.ttcdata = self.ttc_subway_analysis_obj.Get_Live_TTC_Subway_Data();
 
-		self.ttc_subway_map = self.MakeTTCSubwayMapWithNextTrain(self.ttcdata);
-		self.ttc_filter_list = self.MakeTTCSubwayFilterList(self.ttcdata);
+		self.ttc_subway_map = self.MakeTTCSubwayMapWithNextTrain();
+		self.ttc_filter_list = self.MakeTTCSubwayFilterList();
 
 	def Layout(self):
 		######################################################################################
 		######################################################################################
 		content = html.Div([
+					html.Div(id="fakeDiv",children=[]),
 					html.Div(className="rowSection row", children=[
 						html.Div(className="leftSection",children=[
 							html.H6('Select a Station:',className="gs-header gs-text-header padded"),
@@ -82,7 +83,15 @@ class subway_dashboard:
 
 
 
+
+
 	def BindCallBackFunctions(self, appObj):
+
+		@appObj.callback(dash.dependencies.Output('fakeDiv', 'children'),[dash.dependencies.Input('MakeTTCSubwayFilterList', 'value')])
+		def Update_Data(StationName):
+			self.ttcdata = self.ttc_subway_analysis_obj.Get_Live_TTC_Subway_Data();
+
+
 		@appObj.callback(dash.dependencies.Output('TTCSubwayMapNextTrainHistory', 'figure'),[dash.dependencies.Input('MakeTTCSubwayFilterList', 'value')])
 		def Update_Historical_Station_Data(StationName):
 			data = [];
@@ -117,7 +126,6 @@ class subway_dashboard:
 
 		@appObj.callback(dash.dependencies.Output('NextTrainDataTable', 'children'),[dash.dependencies.Input('MakeTTCSubwayFilterList', 'value')])
 		def Update_Next_Train_Data(StationName):
-
 			from_station = StationName.split("-towards-")[0].strip();
 			to_station = StationName.split("-towards-")[1].strip();
 			
@@ -129,6 +137,11 @@ class subway_dashboard:
 
 			return html.Table(make_dash_table(TableData),className="darkTable")
 
+
+
+		@appObj.callback(dash.dependencies.Output('TTCSubwayMapNextTrain', 'figure'),[dash.dependencies.Input('MakeTTCSubwayFilterList', 'value')])
+		def Update_Next_Train_Map(StationName):
+			return self.MakeTTCSubwayMapWithNextTrain(StationName);
 
 
 
@@ -167,8 +180,9 @@ class subway_dashboard:
 			delta_next_train = delta_next_train.split(":");
 			delta_next_train = float((float(delta_next_train[0])*60.0*60.0)+(float(delta_next_train[1]))+(float(delta_next_train[2])/60.0));
 
-			time_sample_list.append(next_train_collection_time[i]);
-			delta_next_train_list.append(delta_next_train);
+			if(abs(delta_next_train) < 50.0):
+				time_sample_list.append(next_train_collection_time[i]);
+				delta_next_train_list.append(delta_next_train);
 
 
 		return time_sample_list,delta_next_train_list;
@@ -182,7 +196,8 @@ class subway_dashboard:
 
 
 
-	def MakeTTCSubwayFilterList(self, ttcdata):
+	def MakeTTCSubwayFilterList(self):
+		ttcdata = self.ttcdata;
 		from_station_name = list(ttcdata["current_station_name"]);
 		to_station_name = list(ttcdata["to_station"]);
 		station_direction_comb = [from_station_name[i]+" -towards- "+to_station_name[i] for i in range(len(from_station_name))];
@@ -201,7 +216,10 @@ class subway_dashboard:
 		return FilterList;
 
 
-	def MakeTTCSubwayMapWithNextTrain(self, ttcdata):
+	def MakeTTCSubwayMapWithNextTrain(self, selectedStation = None):
+		ttcdata = self.ttcdata;
+		if(selectedStation):
+			selectedStation = selectedStation.split("-towards-")[0].strip();
 		from_station = list(ttcdata["current_station_name"]);
 		to_station = list(ttcdata["to_station"]);
 		unq_comb = list(set([i+"~"+j for i in from_station for j in to_station]));
@@ -210,8 +228,14 @@ class subway_dashboard:
 		lng_list = [];
 		text_list = [];
 		delta_time_list = [];
+
+		selected_lat_list = [];
+		selected_lng_list = [];
+		selected_text_list = [];
+		selected_delta_time_list = [];
 		for i in unq_comb:
 			try:
+				
 				temp_DF = ttcdata[(ttcdata["current_station_name"]==i.split("~")[0]) & (ttcdata["to_station"]==i.split("~")[1])];
 				lat_val = list(temp_DF["lat"])[0];
 				lng_val = list(temp_DF["lng"])[0];
@@ -228,38 +252,94 @@ class subway_dashboard:
 				delta_next_train = delta_next_train.split(":");
 				delta_next_train = float((float(delta_next_train[0])*60.0*60.0)+(float(delta_next_train[1]))+(float(delta_next_train[2])/60.0));
 		
-				delta_time_list.append(delta_next_train);
-				lat_list.append(lat_val);
-				lng_list.append(lng_val);
-				text_list.append("From: "+str(station_name)+" To: "+str(to_station)+" Next Train: "+str(next_train));
+
+				if(selectedStation):
+					if(selectedStation in i.split("~")[0]):
+						selected_delta_time_list.append(delta_next_train);
+						selected_lat_list.append(lat_val);
+						selected_lng_list.append(lng_val);
+						selected_text_list.append("From: "+str(station_name)+" To: "+str(to_station)+" Next Train: "+str(next_train));
+					else:
+						delta_time_list.append(delta_next_train);
+						lat_list.append(lat_val);
+						lng_list.append(lng_val);
+						text_list.append("From: "+str(station_name)+" To: "+str(to_station)+" Next Train: "+str(next_train));
+				else:
+					delta_time_list.append(delta_next_train);
+					lat_list.append(lat_val);
+					lng_list.append(lng_val);
+					text_list.append("From: "+str(station_name)+" To: "+str(to_station)+" Next Train: "+str(next_train));
+
 			except Exception as e:
 				pass;
 
 		data = self.ttc_subway_analysis_obj.GetMapBoxToken();
 		mapbox_access_token = data["token"]
 	
-		data = [
-			go.Scattermapbox(
-				lat=lat_list,
-				lon=lng_list,
-				text=text_list,
-				mode='markers',
-				marker=dict(
-					colorscale= "Reds",
-					color = delta_time_list,
-					size=9,
-					colorbar = dict(
-						titleside='bottom'
+
+		if(selectedStation):
+			data = [
+				go.Scattermapbox(
+					lat=lat_list,
+					lon=lng_list,
+					text=text_list,
+					mode='markers',
+					name="",
+					marker=dict(
+						colorscale= "Reds",
+						color = delta_time_list,
+						size=9,
+						colorbar = dict(
+							titleside='bottom'
+						)
 					)
 				)
-			)
-		]
+			]
+			data += [
+				go.Scattermapbox(
+					lat=selected_lat_list,
+					lon=selected_lng_list,
+					text=selected_text_list,
+					mode='markers',
+					name="",
+					marker=dict(
+						colorscale= "Reds",
+						color = selected_delta_time_list,
+						size=30,
+						colorbar = dict(
+							titleside='bottom'
+						)
+					)
+				)
+			]
+		else:
+			data = [
+				go.Scattermapbox(
+					lat=lat_list,
+					lon=lng_list,
+					text=text_list,
+					mode='markers',
+					name="",
+					marker=dict(
+						colorscale= "Reds",
+						color = delta_time_list,
+						size=9,
+						colorbar = dict(
+							titleside='bottom'
+						)
+					)
+				)
+			]
+
+
+
 		layout = go.Layout(
 			font=dict(color='#CCCCCC'),
 			plot_bgcolor="#191A1A",
 			paper_bgcolor="#020202",
 			autosize=True,
 			hovermode='closest',
+			showlegend=False,
 			mapbox=dict(
 				accesstoken=mapbox_access_token,
 				style="dark",

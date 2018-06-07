@@ -15,6 +15,8 @@ class ttc_data_collector:
 
 
 	def ttc_subway_data_collector(self):
+		thingsToRemove = ["Station","Platform","Subway","Northbound","Eastbound","Westbound","Southbound"];
+
 		ttc_api_obj = self._ttc_api_obj;
 
 		service_lines = ["yonge-university-spadina_subway","sheppard_subway","bloor-danforth_subway","scarborough_rt"];
@@ -63,7 +65,10 @@ class ttc_data_collector:
 								current_lat.append(lat);
 								current_lng.append(lng);
 								current_pretty_name.append(pretty_name);
-								to_station.append(k["shape"].split("To")[1].strip().replace("Station","").replace("Platform","").replace("Subway","").strip());
+								to_station_value = k["shape"].split("To")[1].strip();
+								for removeThese in thingsToRemove:
+									to_station_value.replace(removeThese,"");
+								to_station.append(to_station_value.strip());
 								departure_time_val = time.strftime('%H:%M:%S', time.localtime(int(k["departure_timestamp"])))
 								departure_time.append(departure_time_val);
 								collection_time.append(collection_time_val);

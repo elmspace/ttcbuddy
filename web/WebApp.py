@@ -21,7 +21,7 @@ ttc_subway_analysis_obj = ttc_subway_analysis_class();
 server = flask.Flask(__name__)
 app = dash.Dash(__name__,server=server)
 app.config.suppress_callback_exceptions = True
-
+app.title = 'TTC BUDDY'
 
 
 #####################################
@@ -77,7 +77,9 @@ def display_page(pathname):
 		return subway_dashboard_obj.Layout();
 
 
-
+@server.route('/favicon.ico')
+def favicon():
+	return flask.send_from_directory(os.path.join(server.root_path, 'static'),'favicon.ico')
 
 
 
