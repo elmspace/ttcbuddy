@@ -17,7 +17,7 @@ class mysql_db:
 		_port = str(self._sql_config["port"]);
 		_database = str(self._sql_config["database_name"]);
 
-		self._sql_engine = create_engine('mysql://'+_user+':'+_password+'@'+_host+':'+_port+'/'+_database);
+		self._sql_engine = create_engine('mysql+pymysql://'+_user+':'+_password+'@'+_host+':'+_port+'/'+_database);
 
 
 
