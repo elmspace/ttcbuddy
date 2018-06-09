@@ -44,13 +44,13 @@ body {
 }
 
 .Template_LeftColumn{
-	width: 10%;
-	background-color: black;
-	height: 100%;
+	width: 100%;
+	background-color: #4c566a;
+	height: auto;
 }
 
 .Template_RightColumn{
-	width: 90%;
+	width: 100%;
 	height: 100%;
 	padding-left: 30px;
 	padding-right: 10px;
@@ -116,10 +116,12 @@ body {
 
 @media only screen and (max-width: 1500px) {
 	.Template_LeftColumn{
-		width: 20%;
+		width: 100%;
+		height: auto;
+		text-align: center;
 	}
 	.Template_RightColumn{
-		width: 80%;
+		width: 100%;
 		padding-left: 50px;
 		padding-right: 50px;
 	}
@@ -188,14 +190,14 @@ h6{
 table.darkTable {
   font-family: Arial, Helvetica, sans-serif;
   border: 0px solid #000000;
-  background-color: #4A4A4A;
+  background-color: #CAD2D3;
   width: 100%;
   height: 200%;
   text-align: center;
   border-collapse: collapse;
 }
 table.darkTable td, table.darkTable th {
-  border: 1px solid #4A4A4A;
+  border: 1px solid white;
   padding: 5px 5px;
 }
 table.darkTable tbody td {
@@ -203,7 +205,7 @@ table.darkTable tbody td {
   color: #FFFFFF;
 }
 table.darkTable tr:nth-child(even) {
-  background: #888888;
+  background: white;
 }
 table.darkTable thead {
   background: #000000;
@@ -235,5 +237,5 @@ table.darkTable tfoot td {
 }
 
 table{
-	color: white;
+	color: black;
 }

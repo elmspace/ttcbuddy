@@ -113,9 +113,9 @@ class subway_dashboard:
 			)
 			data.append(data_to_plot);
 			layout = go.Layout(
-				font=dict(color='#CCCCCC'),
-				plot_bgcolor="black",
-				paper_bgcolor="black",
+				font=dict(color='black'),
+				plot_bgcolor="#CAD2D3",
+				paper_bgcolor="#CAD2D3",
 				autosize=True,
 				hovermode='closest',
 				xaxis=dict(),
@@ -339,15 +339,15 @@ class subway_dashboard:
 
 
 		layout = go.Layout(
-			font=dict(color='#CCCCCC'),
-			plot_bgcolor="#191A1A",
-			paper_bgcolor="#020202",
+			font=dict(color='black'),
+			plot_bgcolor="#CAD2D3",
+			paper_bgcolor="#CAD2D3",
 			autosize=True,
 			hovermode='closest',
 			showlegend=False,
 			mapbox=dict(
 				accesstoken=mapbox_access_token,
-				style="dark",
+				style="light",
 				bearing=0,
 				center=dict(
 					lat=43.7057304382,
