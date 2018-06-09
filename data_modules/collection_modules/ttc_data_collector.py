@@ -1,6 +1,8 @@
 import pandas as pd;
 import os, sys;
 import time;
+from pytz import timezone;
+from datetime import datetime;
 
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname( __file__ ), '../../', 'api_modules/ttc_api')));
@@ -47,8 +49,13 @@ class ttc_data_collector:
 			current_lng = [];
 			current_pretty_name = [];
 
-			collection_time_val = time.strftime('%H:%M:%S');
-			collection_date_val = time.strftime('%Y%m%d');
+			fmt_date = '%Y%m%d';
+			fmt_time = '%H:%M:%S';
+			eastern = timezone('US/Eastern');
+			loc_dt = datetime.now(eastern);
+			collection_date_val = loc_dt.strftime(fmt_date);
+			collection_time_val = loc_dt.strftime(fmt_time);
+
 
 			for count in range(len(station_names)):
 				name = station_names[count];
@@ -70,6 +77,9 @@ class ttc_data_collector:
 									to_station_value.replace(removeThese,"");
 								to_station.append(to_station_value.strip());
 								departure_time_val = time.strftime('%H:%M:%S', time.localtime(int(k["departure_timestamp"])))
+								fmt = "%H:%M:%S";
+								t = datetime.fromtimestamp(float(k["departure_timestamp"]),eastern);
+								departure_time_val = t.strftime(fmt);
 								departure_time.append(departure_time_val);
 								collection_time.append(collection_time_val);
 								collection_date.append(collection_date_val);
@@ -86,3 +96,9 @@ class ttc_data_collector:
 			subway_data_main = subway_data_main.append(subway_data);
 
 		return subway_data_main;
+
+
+
+# if __name__=="__main__":
+# 	ttc_data_collector_obj = ttc_data_collector();
+# 	print(ttc_data_collector_obj.ttc_subway_data_collector());

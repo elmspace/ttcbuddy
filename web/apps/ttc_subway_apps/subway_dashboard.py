@@ -9,6 +9,7 @@ import dash_html_components as html;
 import plotly.plotly as py;
 import plotly.graph_objs as go;
 from datetime import datetime;
+from pytz import timezone;
 import time;
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname( __file__ ), '../', 'helper_modules')));
@@ -97,7 +98,12 @@ class subway_dashboard:
 			data = [];
 			from_station = StationName.split("-towards-")[0].strip();
 			to_station = StationName.split("-towards-")[1].strip();
-			today_date = time.strftime('%Y%m%d');
+			
+			fmt = '%Y%m%d';
+			eastern = timezone('US/Eastern');
+			loc_dt = datetime.now(eastern);
+			today_date = loc_dt.strftime(fmt);
+						
 			time_sample_list,delta_next_train_list = self.GetHistoricalDataAndProccessIt(from_station,to_station,today_date);
 			data_to_plot = go.Scatter(
 				x=time_sample_list,
@@ -153,7 +159,6 @@ class subway_dashboard:
 		time_sample_list = [];
 		delta_next_train_list = [];
 		unique_time.sort()
-
 
 		next_train_collection_date = [];
 		next_train_collection_time = [];
