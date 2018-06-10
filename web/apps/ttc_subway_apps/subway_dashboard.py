@@ -21,7 +21,9 @@ class subway_dashboard:
 		self.side_NavBar = side_NavBar;
 		self.ttc_subway_analysis_obj = ttc_subway_analysis_obj;
 
-		self.ttcdata = self.ttc_subway_analysis_obj.Get_Live_TTC_Subway_Data();
+		#self.ttcdata = self.ttc_subway_analysis_obj.Get_Live_TTC_Subway_Data();
+		self.ttcdata = self.ttc_subway_analysis_obj.Get_Most_Recent_Data_From_DB();
+		
 
 		self.ttc_subway_map = self.MakeTTCSubwayMapWithNextTrain();
 		self.ttc_filter_list = self.MakeTTCSubwayFilterList();
@@ -34,6 +36,7 @@ class subway_dashboard:
 					html.Div(className="rowSection row", children=[
 						html.Div(className="leftSection",children=[
 							html.H6('Select a Station:',className="gs-header gs-text-header padded"),
+							html.Div("Use the drop-down menue to select a station and the direction you want to get information about."),
 							dcc.Dropdown(
 								id="MakeTTCSubwayFilterList",
 								value = self.ttc_filter_list["value"],
@@ -49,6 +52,7 @@ class subway_dashboard:
 					html.Div(className="rowSection row", children=[
 						html.Div(className="leftSection",children=[
 							html.H6('TTC Subway Map - Next Train',className="gs-header gs-text-header padded"),
+							html.Div("Map of the subway system in Toronto. Colors correspond to time-to-next train. The more red the color, the longer you have to wait until next train."),
 							dcc.Graph(
 								id='TTCSubwayMapNextTrain',
 								figure=self.ttc_subway_map,
@@ -57,6 +61,7 @@ class subway_dashboard:
 						]),
 						html.Div(className="rightSection",children=[
 							html.H6("Today's Performance",className="gs-header gs-text-header padded"),
+							html.Div("The following plot, shows the historical time-to-next-train over the day. The x-axis is the time we collected data and y-axis is the time to next train data."),
 							dcc.Graph(
 								id='TTCSubwayMapNextTrainHistory',
 								config={'displayModeBar': False}
@@ -137,9 +142,9 @@ class subway_dashboard:
 			
 			TableData = self.ttcdata[(self.ttcdata["current_station_name"]== from_station) & (self.ttcdata["to_station"]== to_station)];
 
-			columnsToKeep = ["current_station_name" , "to_station" , "departure_time"];
+			columnsToKeep = ["current_station_name" , "to_station" , "departure_time", "collection_date"];
 			TableData = TableData[columnsToKeep];
-			TableData.columns = ["From","Towards","Departure Time"];
+			TableData.columns = ["From","Towards","Departure Time","Date YYYYMMDD"];
 
 			return html.Table(make_dash_table(TableData),className="darkTable")
 

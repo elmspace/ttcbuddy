@@ -14,14 +14,12 @@ ttc_data_collector_obj = ttc_data_collector();
 mysql_db_obj = mysql_db();
 
 
-for i in range(500):
+while(1):
 	try:
 		data = ttc_data_collector_obj.ttc_subway_data_collector();
 		mysql_db_obj.Insert_Data(data,"ttc_subway_data");
-		print("loading");
 		time.sleep(60);
 	except Exception as e:
-		print("error");
 		pass;
 
 

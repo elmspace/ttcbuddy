@@ -25,6 +25,13 @@ class ttc_data_collector:
 
 		subway_data_main = pd.DataFrame(columns=["current_station_uri","current_station_name","lat","lng","to_station","departure_time","collection_time","collection_date"]);
 
+		fmt_date = '%Y%m%d';
+		fmt_time = '%H:%M:%S';
+		eastern = timezone('US/Eastern');
+		loc_dt = datetime.now(eastern);
+		collection_date_val = loc_dt.strftime(fmt_date);
+		collection_time_val = loc_dt.strftime(fmt_time);
+
 		for service_line in service_lines:
 
 			station_names = [];
@@ -48,14 +55,6 @@ class ttc_data_collector:
 			current_lat = [];
 			current_lng = [];
 			current_pretty_name = [];
-
-			fmt_date = '%Y%m%d';
-			fmt_time = '%H:%M:%S';
-			eastern = timezone('US/Eastern');
-			loc_dt = datetime.now(eastern);
-			collection_date_val = loc_dt.strftime(fmt_date);
-			collection_time_val = loc_dt.strftime(fmt_time);
-
 
 			for count in range(len(station_names)):
 				name = station_names[count];
