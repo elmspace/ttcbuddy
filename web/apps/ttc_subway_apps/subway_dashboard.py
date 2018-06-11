@@ -93,11 +93,6 @@ class subway_dashboard:
 
 	def BindCallBackFunctions(self, appObj):
 
-		@appObj.callback(dash.dependencies.Output('fakeDiv', 'children'),[dash.dependencies.Input('MakeTTCSubwayFilterList', 'value')])
-		def Update_Data(StationName):
-			self.ttcdata = self.ttc_subway_analysis_obj.Get_Live_TTC_Subway_Data();
-
-
 		@appObj.callback(dash.dependencies.Output('TTCSubwayMapNextTrainHistory', 'figure'),[dash.dependencies.Input('MakeTTCSubwayFilterList', 'value')])
 		def Update_Historical_Station_Data(StationName):
 			data = [];
@@ -147,7 +142,6 @@ class subway_dashboard:
 			TableData.columns = ["From","Towards","Departure Time","Date YYYYMMDD"];
 
 			return html.Table(make_dash_table(TableData),className="darkTable")
-
 
 
 		@appObj.callback(dash.dependencies.Output('TTCSubwayMapNextTrain', 'figure'),[dash.dependencies.Input('MakeTTCSubwayFilterList', 'value')])
@@ -207,7 +201,7 @@ class subway_dashboard:
 
 
 	def MakeTTCSubwayFilterList(self):
-		ttcdata = self.ttcdata;
+		ttcdata = self.ttc_subway_analysis_obj.Get_Most_Recent_Data_From_DB();
 		from_station_name = list(ttcdata["current_station_name"]);
 		to_station_name = list(ttcdata["to_station"]);
 		station_direction_comb = [from_station_name[i]+" -towards- "+to_station_name[i] for i in range(len(from_station_name))];
@@ -227,7 +221,7 @@ class subway_dashboard:
 
 
 	def MakeTTCSubwayMapWithNextTrain(self, selectedStation = None):
-		ttcdata = self.ttcdata;
+		ttcdata = self.ttc_subway_analysis_obj.Get_Most_Recent_Data_From_DB();
 		if(selectedStation):
 			selectedStation = selectedStation.split("-towards-")[0].strip();
 		from_station = list(ttcdata["current_station_name"]);
