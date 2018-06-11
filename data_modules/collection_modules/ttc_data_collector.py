@@ -27,10 +27,12 @@ class ttc_data_collector:
 
 		fmt_date = '%Y%m%d';
 		fmt_time = '%H:%M:%S';
+		fmt_time_id = '%H%M%S';
 		eastern = timezone('US/Eastern');
 		loc_dt = datetime.now(eastern);
 		collection_date_val = loc_dt.strftime(fmt_date);
 		collection_time_val = loc_dt.strftime(fmt_time);
+		collection_id_val = int(loc_dt.strftime(fmt_date)+loc_dt.strftime(fmt_time_id));
 
 		for service_line in service_lines:
 
@@ -45,7 +47,7 @@ class ttc_data_collector:
 				station_lng.append(i["lng"]);
 				station_pretty_name.append(i["name"].replace("Station","").replace("Platform","").replace("Subway","").strip());
 
-			subway_data = pd.DataFrame(columns=["current_station_uri","current_station_name","lat","lng","to_station","departure_time","collection_time","collection_date"]);
+			subway_data = pd.DataFrame(columns=["collection_id","current_station_uri","current_station_name","lat","lng","to_station","departure_time","collection_time","collection_date"]);
 
 			current_station = [];
 			to_station = [];
@@ -55,6 +57,7 @@ class ttc_data_collector:
 			current_lat = [];
 			current_lng = [];
 			current_pretty_name = [];
+			collection_id = [];
 
 			for count in range(len(station_names)):
 				name = station_names[count];
@@ -82,6 +85,7 @@ class ttc_data_collector:
 								departure_time.append(departure_time_val);
 								collection_time.append(collection_time_val);
 								collection_date.append(collection_date_val);
+								collection_id.append(collection_id_val);
 
 			subway_data["current_station_uri"] = current_station;
 			subway_data["to_station"] = to_station;
@@ -91,6 +95,8 @@ class ttc_data_collector:
 			subway_data["current_station_name"] = current_pretty_name;
 			subway_data["lat"] = current_lat;
 			subway_data["lng"] = current_lng;
+			subway_data["collection_id"] = collection_id;
+
 
 			subway_data_main = subway_data_main.append(subway_data);
 

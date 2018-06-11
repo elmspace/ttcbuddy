@@ -22,7 +22,7 @@ class ttc_subway_analysis_class:
 		return token;
 
 	def Get_Most_Recent_Data_From_DB(self):
-		sql_query_condition = "where collection_date = (Select Max(collection_date) FROM ttc_buddy.ttc_subway_data) AND collection_time = (Select Max(collection_time) FROM ttc_buddy.ttc_subway_data where collection_date = (Select Max(collection_date) FROM ttc_buddy.ttc_subway_data) );"
+		sql_query_condition = "where collection_id = (Select Max(collection_id) FROM ttc_buddy.ttc_subway_data);"
 		data = self._mysql_db_obj.Select_Data_with_Condition("ttc_subway_data",sql_query_condition);
 		return data;
 
