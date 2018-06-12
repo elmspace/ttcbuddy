@@ -24,6 +24,12 @@ app.config.suppress_callback_exceptions = True
 app.title = 'TTC BUDDY'
 
 
+app.head = [
+	html.Link(href='/static/manifest.json',rel='manifest')
+]
+
+
+
 #####################################
 from subway_dashboard import subway_dashboard;
 #####################################
