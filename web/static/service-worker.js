@@ -1,29 +1,20 @@
-// This is based on the First Progressive Web App Tutorial by Google
-// https://codelabs.developers.google.com/codelabs/your-first-pwapp/
+
 const cacheName = 'flask-PWA-v1';
 const filesToCache = [
   '/',
-  '/index.html',
   '/static/js/app.js',
-  '/static/css/inline.css',
-  '/static/img/clear.png',
-  '/static/img/cloudy-scattered-showers.png',
-  '/static/img/cloudy.png',
-  '/static/img/fog.png',
-  '/static/img/ic_add_white_24px.svg',
-  '/static/img/ic_refresh_white_24px.svg',
-  '/static/img/partly-cloudy.png',
-  '/static/img/rain.png',
-  '/static/img/scattered-showers.png',
-  '/static/img/sleet.png',
-  '/static/img/snow.png',
-  '/static/img/thunderstorm.png',
-  '/static/img/wind.png'
+  '/static/css/Index.css',
+  '/static/css/BaseStyle.css',
+  '/static/css/2.css',
+  '/static/css/3.css',
+  '/static/img/icons/android-icon-192x192.png',
+  '/static/img/icons/android-icon-96x96.png',
+  '/static/img/icons/android-icon-72x72.png',
+  '/static/img/icons/android-icon-48x48.png',
+  '/static/img/icons/android-icon-36x36.png'
 ];
 
-// When the 'install' event is fired we will cache
-// the html, javascript, css, images and any other files important
-// to the operation of the application shell
+
 self.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
   e.waitUntil(
@@ -34,9 +25,6 @@ self.addEventListener('install', function(e) {
   );
 });
 
-// We then listen for the service worker to be activated/started. Once it is
-// ensures that your service worker updates its cache whenever any of the app shell files change.
-// In order for this to work, you'd need to increment the cacheName variable at the top of this service worker file.
 self.addEventListener('activate', function(e) {
   console.log('[ServiceWorker] Activate');
     e.waitUntil(
@@ -53,11 +41,7 @@ self.addEventListener('activate', function(e) {
 });
 
 
-// Serve the app shell from the cache
-// If the file is not in the cache then try to get it via the network.
-// otherwise give an error and display an offline page
-// This is a just basic example, a better solution is to use the
-// Service Worker Precache module https://github.com/GoogleChromeLabs/sw-precache
+
 self.addEventListener('fetch', function(e) {
   console.log('[ServiceWorker] Fetch', e.request.url);
   e.respondWith(
@@ -65,9 +49,6 @@ self.addEventListener('fetch', function(e) {
       return response || fetch(e.request).catch(error => {
           console.log('Fetch failed; returning offline page instead.', error);
 
-          // In reality you'd have many different
-          // fallbacks, depending on URL & headers.
-          // Eg, a fallback silhouette image for avatars.
           let url = e.request.url;
           let extension = url.split('.').pop();
 
@@ -79,7 +60,6 @@ self.addEventListener('fetch', function(e) {
                 <path d="M91,70a9,9 0 0,1 18,0l-5,50a4,4 0 0,1-8,0z" fill="#aaa"/>
                 <circle cy="138" r="9" cx="100" fill="#aaa"/>
                 </svg>`;
-              // const FALLBACK_IMAGE = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2zm16 8.59V6H4v6.59l4.3-4.3a1 1 0 0 1 1.4 0l5.3 5.3 2.3-2.3a1 1 0 0 1 1.4 0l1.3 1.3zm0 2.82l-2-2-2.3 2.3a1 1 0 0 1-1.4 0L9 10.4l-5 5V18h16v-2.59zM15 10a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/></svg>`;
               return Promise.resolve(new Response(FALLBACK_IMAGE, {
                   headers: {
                       'Content-Type': 'image/svg+xml'
@@ -87,7 +67,6 @@ self.addEventListener('fetch', function(e) {
               }));
           }
 
-          // Then we can have a default fallback for web pages to show an offline page
           return caches.match('offline.html');
       });
     })
