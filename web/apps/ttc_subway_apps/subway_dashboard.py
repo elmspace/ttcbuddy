@@ -134,9 +134,8 @@ class subway_dashboard:
 		def Update_Next_Train_Data(StationName):
 			from_station = StationName.split("-towards-")[0].strip();
 			to_station = StationName.split("-towards-")[1].strip();
-			
-			TableData = self.ttcdata[(self.ttcdata["current_station_name"]== from_station) & (self.ttcdata["to_station"]== to_station)];
-
+			data = self.ttc_subway_analysis_obj.Get_Most_Recent_Data_From_DB();
+			TableData = data[(self.ttcdata["current_station_name"]== from_station) & (self.ttcdata["to_station"]== to_station)];
 			columnsToKeep = ["current_station_name" , "to_station" , "departure_time", "collection_date"];
 			TableData = TableData[columnsToKeep];
 			TableData.columns = ["From","Towards","Departure Time","Date YYYYMMDD"];
